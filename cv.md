@@ -35,7 +35,7 @@ title: Download CV
 
 <div class="card">
   <h2>Professional Summary</h2>
-  <p>University lecturer candidate with <strong>8+ years of teaching and corporate training experience</strong> in China, including university classroom instruction and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
+  <p>University lecturer candidate with <strong>teaching and corporate training experience</strong> in China, including university classroom instruction and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
 </div>
 
 <div class="card">
@@ -57,9 +57,9 @@ title: Download CV
   <div style="margin-bottom: 16px;">
     <div style="display: flex; justify-content: space-between; font-weight: 600;">
       <span>Language & Technical Consultant (Corporate Trainer)</span>
-      <span style="color: var(--text-light);">2018–2023</span>
+      <span style="color: var(--text-light);">2024–2025</span>
     </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Midea Group · 美的集团 — Foshan, Guangdong</div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Midea Group · 美的集团 — Shunde, Guangdong</div>
     <ul style="margin: 0;">
       <li>Designed and delivered English-medium technical training for Chinese professionals across legal, finance, R&D, and sales departments</li>
       <li>Created course materials, exercises, and assessments for mixed-ability adult learners</li>
@@ -70,9 +70,9 @@ title: Download CV
   <div>
     <div style="display: flex; justify-content: space-between; font-weight: 600;">
       <span>Language & Technical Consultant (Corporate Trainer)</span>
-      <span style="color: var(--text-light);">2016–2018</span>
+      <span style="color: var(--text-light);">2024–2025</span>
     </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Hisense Group · 海信集团 — Qingdao, Shandong</div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Hisense Group · 海信集团 — Shunde, Guangdong</div>
     <ul style="margin: 0;">
       <li>Developed and delivered English-medium training for research, finance, legal, and sales departments</li>
       <li>Lesson planning, classroom management, and progress assessment for adult professionals</li>

@@ -28,10 +28,10 @@ title: Experience
   </div>
 
   <div class="timeline-item">
-    <div class="date">2018–2023</div>
+    <div class="date">2024–2025</div>
     <div class="org">
       <strong>Language & Technical Trainer</strong><br>
-      <span class="org-cn">Midea Group · 美的集团 — Foshan, Guangdong</span>
+      <span class="org-cn">Midea Group · 美的集团 — Shunde, Guangdong</span>
     </div>
     <ul>
       <li>Designed and delivered English-medium technical training courses for Chinese professionals across legal, finance, R&D, and sales departments</li>
@@ -42,10 +42,10 @@ title: Experience
   </div>
 
   <div class="timeline-item">
-    <div class="date">2016–2018</div>
+    <div class="date">2024–2025</div>
     <div class="org">
       <strong>Language & Technical Trainer</strong><br>
-      <span class="org-cn">Hisense Group · 海信集团 — Qingdao, Shandong</span>
+      <span class="org-cn">Hisense Group · 海信集团 — Shunde, Guangdong</span>
     </div>
     <ul>
       <li>Developed and delivered English-medium corporate training for research, finance, legal, and sales departments</li>
@@ -67,7 +67,7 @@ title: Experience
     </ul>
   </div>
 
-  <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> 8+ years across university classroom and corporate training environments. All instruction delivered in English to Chinese learners.</p>
+  <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> university classroom instruction and corporate training. All instruction delivered in English to Chinese learners.</p>
 </div>
 
 <div class="card" style="border-left: 5px solid #1565c0;">
