@@ -31,6 +31,29 @@ title: Home
     </div>
   </div>
 
+  <div class="data-stats-bar">
+    <div class="data-stat">
+      <span class="data-icon">📖</span>
+      <span class="data-value">64</span>
+      <span class="data-label">Teaching Hours</span>
+    </div>
+    <div class="data-stat">
+      <span class="data-icon">👨‍🎓</span>
+      <span class="data-value">100+</span>
+      <span class="data-label">Students Trained</span>
+    </div>
+    <div class="data-stat">
+      <span class="data-icon">🏢</span>
+      <span class="data-value">2</span>
+      <span class="data-label">Multinational Companies</span>
+    </div>
+    <div class="data-stat">
+      <span class="data-icon">📅</span>
+      <span class="data-value">3</span>
+      <span class="data-label">Years Teaching</span>
+    </div>
+  </div>
+
   <div>
     <a href="{{ '/course' | relative_url }}" class="cta-button">📖 View 64-Hour Syllabus</a>
     <a href="{{ '/cv' | relative_url }}" class="cta-button" style="background: #2e7d32;">📄 Download CV</a>
