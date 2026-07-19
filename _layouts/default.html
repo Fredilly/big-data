@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  {% seo %}
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="wrapper">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/meetup' | relative_url }}">AI Meetup 2018</a>
+        <a href="{{ '/course' | relative_url }}">Course</a>
+        <a href="{{ '/experience' | relative_url }}">Experience</a>
+        <a href="{{ '/education' | relative_url }}">Education</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>&copy; {{ site.time | date: '%Y' }} Fred Egbuedike &middot; 
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a> &middot;
+      <a href="https://github.com/{{ site.github_username }}">GitHub</a> &middot;
+      <a href="https://kaggle.com/{{ site.kaggle_username }}">Kaggle</a></p>
+    </div>
+  </footer>
+</body>
+</html>

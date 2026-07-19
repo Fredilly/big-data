@@ -1,0 +1,26 @@
+# Site settings
+title: "Fred Egbuedike — Big Data Lecturer"
+email: fredilly@gmail.com
+description: >
+  Founder of Chengdu's first AI meetup (2018). M.Sc. Information Security,
+  Southwest Jiaotong University. Data science practitioner, Kaggle competitor,
+  and multilingual tech consultant.
+baseurl: "/big-data-lecturer"
+url: "https://fredilly.github.io"
+github_username: Fredilly
+kaggle_username: fredilly
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom vars
+chinese_name: "弗雷德"
+university: "Southwest Jiaotong University"
+university_cn: "西南交通大学"
+degree: "M.Sc. Information Security"
+midea_cn: "美的集团"
+hisense_cn: "海信集团"
