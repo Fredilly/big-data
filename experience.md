@@ -76,16 +76,16 @@ title: Experience
 
   <div class="gallery">
     <div class="gallery-item">
-      <a href="{{ '/assets/midea-training.jpg' | relative_url }}" target="_blank">
-        <img src="{{ '/assets/midea-training.jpg' | relative_url }}" alt="Midea Group training session" loading="lazy">
-      </a>
-      <div class="gallery-caption">Midea Group · 美的集团 — Training Session</div>
-    </div>
-    <div class="gallery-item">
       <a href="{{ '/assets/hisense-training.jpg' | relative_url }}" target="_blank">
         <img src="{{ '/assets/hisense-training.jpg' | relative_url }}" alt="Hisense Group training session" loading="lazy">
       </a>
       <div class="gallery-caption">Hisense Group · 海信集团 — Training Session</div>
+    </div>
+    <div class="gallery-item">
+      <a href="{{ '/assets/midea-training.jpg' | relative_url }}" target="_blank">
+        <img src="{{ '/assets/midea-training.jpg' | relative_url }}" alt="Midea Group training session" loading="lazy">
+      </a>
+      <div class="gallery-caption">Midea Group · 美的集团 — Training Session</div>
     </div>
   </div>
 </div>
