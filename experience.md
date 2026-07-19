@@ -70,6 +70,67 @@ title: Experience
   <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> university classroom instruction and corporate training. All instruction delivered in English to Chinese learners.</p>
 </div>
 
+<div class="card">
+  <h2>📸 Corporate Training — In the Field</h2>
+  <p style="color: var(--text-light); margin-bottom: 16px;">On-site training sessions at Midea Group and Hisense Group, Shunde, Guangdong (2024–2025)</p>
+
+  <div class="gallery">
+    <div class="gallery-item">
+      <a href="{{ '/assets/midea-training.jpg' | relative_url }}" target="_blank">
+        <img src="{{ '/assets/midea-training.jpg' | relative_url }}" alt="Midea Group training session" loading="lazy">
+      </a>
+      <div class="gallery-caption">Midea Group · 美的集团 — Training Session</div>
+    </div>
+    <div class="gallery-item">
+      <a href="{{ '/assets/hisense-training.jpg' | relative_url }}" target="_blank">
+        <img src="{{ '/assets/hisense-training.jpg' | relative_url }}" alt="Hisense Group training session" loading="lazy">
+      </a>
+      <div class="gallery-caption">Hisense Group · 海信集团 — Training Session</div>
+    </div>
+  </div>
+</div>
+
+<style>
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 12px;
+}
+.gallery-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+.gallery-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.gallery-item a {
+  display: block;
+  line-height: 0;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery-caption {
+  padding: 12px 16px;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  background: #fff;
+  text-align: center;
+  font-weight: 500;
+  border-top: 1px solid #eee;
+}
+@media (max-width: 600px) {
+  .gallery { grid-template-columns: 1fr; }
+}
+</style>
+
 <div class="card" style="border-left: 5px solid #1565c0;">
   <h2>🧮 Data Engineering & Applied Python</h2>
 
