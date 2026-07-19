@@ -67,7 +67,7 @@ title: Experience
     </ul>
   </div>
 
-  <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> 10+ years across university classroom and corporate training environments. All instruction delivered in English to Chinese learners.</p>
+  <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> 8+ years across university classroom and corporate training environments. All instruction delivered in English to Chinese learners.</p>
 </div>
 
 <div class="card" style="border-left: 5px solid #1565c0;">

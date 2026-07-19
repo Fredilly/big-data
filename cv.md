@@ -35,7 +35,7 @@ title: Download CV
 
 <div class="card">
   <h2>Professional Summary</h2>
-  <p>University lecturer candidate with <strong>10+ years of teaching and corporate training experience</strong> in China, including university classroom instruction and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>Chengdu's first AI and Machine Learning meetup</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
+  <p>University lecturer candidate with <strong>8+ years of teaching and corporate training experience</strong> in China, including university classroom instruction and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
 </div>
 
 <div class="card">
@@ -149,7 +149,7 @@ title: Download CV
 
 <div class="card">
   <h2>📋 Course Ready to Teach</h2>
-  <p><strong>Advanced Programming for Data Science</strong> — 64 teaching hours / 16 weeks</p>
+  <p><strong>Advanced Programming for Data Science</strong> — 64 teaching hours / 7 weeks</p>
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 0.9rem;">
     <div><strong>Unit I:</strong> Python Foundations (12 hrs)</div>
     <div><strong>Unit II:</strong> Numerical & Data Manipulation (12 hrs)</div>

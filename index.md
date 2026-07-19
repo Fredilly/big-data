@@ -9,12 +9,12 @@ title: Home
     <span class="highlight">Fred Egbuedike</span>
     <br>弗雷德
   </h1>
-  <p class="subtitle">Advanced Programming for Data Science Lecturer · Python Practitioner · Chengdu-based</p>
-  <p class="tagline-cn">M.Sc. Information Security · 西南交通大学 · 10+ Years Teaching & Corporate Training</p>
+  <p class="subtitle">Advanced Programming for Data Science Lecturer · Python Practitioner · Experienced Educator · Chengdu-Based</p>
+  <p class="tagline-cn">M.Sc. Information Security, Southwest Jiaotong University · 8+ Years University Teaching and Corporate Training</p>
 
   <div class="hero-stats">
     <div class="stat">
-      <span class="num">10+</span>
+      <span class="num">8+</span>
       <span class="label">Years Teaching & Training</span>
     </div>
     <div class="stat">
@@ -23,11 +23,11 @@ title: Home
     </div>
     <div class="stat">
       <span class="num">3</span>
-      <span class="label">Multinational Companies Trained</span>
+      <span class="label">Professionals Trained at 3 Multinational Companies</span>
     </div>
     <div class="stat">
       <span class="num">🇬🇧</span>
-      <span class="label">Native English</span>
+      <span class="label">Native English Speaker</span>
     </div>
   </div>
 
@@ -39,18 +39,18 @@ title: Home
 </div>
 
 <div class="card">
-  <h2>🎯 Candidate Summary</h2>
-  <p><strong>Advanced Programming for Data Science Lecturer</strong> — available for the September–December 2026 teaching period at Chengdu university. Experienced in <strong>English-medium instruction</strong>, curriculum development, Python-based data processing, and explaining technical subjects to Chinese students and corporate professionals.</p>
+  <h2>🎯 Candidate Profile</h2>
+  <p>Lecturer candidate available to teach <strong>Advanced Programming for Data Science</strong> in Chengdu from September through December 2026. I have experience in English-medium university instruction, corporate training, curriculum development, Python-based data processing, and explaining technical subjects clearly to Chinese students and professionals.</p>
   <ul>
-    <li><strong>M.Sc. Information Security</strong> — Southwest Jiaotong University (西南交通大学), Chengdu<br><em>Computing-focused postgraduate degree covering secure systems, data integrity, and quantitative problem-solving</em></li>
-    <li><strong>10+ years of teaching and corporate training</strong> — university classroom, Midea (美的集团), Hisense (海信集团)</li>
-    <li><strong>Python & data systems practitioner</strong> — Pandas, NumPy, Scikit-learn, data pipelines, validation workflows at Article6</li>
-    <li><strong>Chengdu-based</strong> — I studied here, taught here, and built the local AI community here</li>
+    <li><strong>M.Sc. Information Security, Southwest Jiaotong University</strong> (西南交通大学), Chengdu<br><em>Computing-focused postgraduate education covering secure systems, data integrity, algorithms, and quantitative problem-solving.</em></li>
+    <li><strong>Extensive teaching and corporate training experience</strong> — university instruction and professional training at Midea Group and Hisense Group.</li>
+    <li><strong>Applied Python and data systems experience</strong> — hands-on work with Python, Pandas, NumPy, Scikit-learn, data pipelines, document processing, and validation workflows.</li>
+    <li><strong>Established in Chengdu</strong> — studied and taught in Chengdu and founded a local AI, machine learning, and data science community.</li>
   </ul>
 </div>
 
 <div class="card">
-  <h2>📋 How I Meet the Requirements</h2>
+  <h2>📋 Alignment With the Position</h2>
 
   <table style="width:100%; border-collapse: collapse;">
     <tr style="border-bottom: 2px solid var(--border);">
@@ -58,41 +58,47 @@ title: Home
       <th style="text-align: left; padding: 10px;">How I Meet It</th>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Master's degree</strong> in computing-related field</td>
-      <td style="padding: 10px;">✅ M.Sc. Information Security, SWJTU</td>
+      <td style="padding: 10px;"><strong>Master's degree</strong> in a computing-related field</td>
+      <td style="padding: 10px;">✅ M.Sc. Information Security from Southwest Jiaotong University</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>2–3 years teaching experience</strong></td>
-      <td style="padding: 10px;">✅ 10+ years: university (2013) + corporate training at Midea & Hisense</td>
+      <td style="padding: 10px;"><strong>Minimum two to three years of teaching experience</strong></td>
+      <td style="padding: 10px;">✅ More than eight years of university teaching and corporate training experience in China</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Native English speaker</strong></td>
-      <td style="padding: 10px;">✅ Native English · Conversational Chinese — capable of navigating daily classroom life in Chengdu</td>
+      <td style="padding: 10px;"><strong>Fluent English</strong></td>
+      <td style="padding: 10px;">✅ Native English speaker with professional working Chinese</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Create own PPTs & materials</strong></td>
-      <td style="padding: 10px;">✅ Designed full 64-hour syllabus with sample lecture slides on this site</td>
+      <td style="padding: 10px;"><strong>Ability to develop teaching materials</strong></td>
+      <td style="padding: 10px;">✅ Prepared a complete 64-hour Advanced Programming for Data Science syllabus with practical exercises, assessment criteria, and sample lecture slides</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>On-site in Chengdu</strong></td>
-      <td style="padding: 10px;">✅ Based in Chengdu · M.Sc. from local university · Built community here</td>
+      <td style="padding: 10px;"><strong>Available for on-site teaching in Chengdu</strong></td>
+      <td style="padding: 10px;">✅ Based in Chengdu and available from September through December 2026</td>
     </tr>
   </table>
 </div>
 
 <div class="card">
-  <h2>🔗 Quick Links</h2>
+  <h2>🔗 Contact</h2>
   <div style="display: flex; gap: 24px; flex-wrap: wrap; margin-top: 12px;">
+    <a href="mailto:fredilly@gmail.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
+      📧 fredilly@gmail.com
+    </a>
+    <span style="display: flex; align-items: center; gap: 8px; color: var(--text-light);">
+      💬 WeChat: fredilly
+    </span>
+    <span style="display: flex; align-items: center; gap: 8px; color: var(--text-light);">
+      📞 18030828814
+    </span>
     <a href="https://github.com/Fredilly" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
       <img src="https://github.githubassets.com/favicons/favicon.svg" width="20" height="20" alt="GitHub">
-      github.com/Fredilly
+      GitHub
     </a>
     <a href="https://kaggle.com/fredilly" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
       <img src="https://www.kaggle.com/static/images/favicon.ico" width="20" height="20" alt="Kaggle">
-      kaggle.com/fredilly
-    </a>
-    <a href="mailto:fredilly@gmail.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
-      📧 fredilly@gmail.com
+      Kaggle
     </a>
   </div>
 </div>
