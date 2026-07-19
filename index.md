@@ -10,12 +10,12 @@ title: Home
     <br>弗雷德
   </h1>
   <p class="subtitle">Advanced Programming for Data Science Lecturer · Python Practitioner · Experienced Educator · Chengdu-Based</p>
-  <p class="tagline-cn">M.Sc. Information Security, Southwest Jiaotong University · 8+ Years University Teaching and Corporate Training</p>
+  <p class="tagline-cn">M.Sc. Information Security · Southwest Jiaotong University · 10+ Years of Teaching and Corporate Training</p>
 
   <div class="hero-stats">
     <div class="stat">
-      <span class="num">8+</span>
-      <span class="label">Years Teaching & Training</span>
+      <span class="num">10+</span>
+      <span class="label">Years Teaching and Training</span>
     </div>
     <div class="stat">
       <span class="num">2015–2018</span>
@@ -23,7 +23,7 @@ title: Home
     </div>
     <div class="stat">
       <span class="num">3</span>
-      <span class="label">Professionals Trained at 3 Multinational Companies</span>
+      <span class="label">Corporate Training at 3 Multinational Companies</span>
     </div>
     <div class="stat">
       <span class="num">🇬🇧</span>
@@ -40,12 +40,12 @@ title: Home
 
 <div class="card">
   <h2>🎯 Candidate Profile</h2>
-  <p>Lecturer candidate available to teach <strong>Advanced Programming for Data Science</strong> in Chengdu from September through December 2026. I have experience in English-medium university instruction, corporate training, curriculum development, Python-based data processing, and explaining technical subjects clearly to Chinese students and professionals.</p>
+  <p>Advanced Programming for Data Science lecturer available for the September–December 2026 teaching period <strong>at a university in Chengdu</strong>. I have experience in English-medium university instruction, corporate training, curriculum development, Python-based data processing, and explaining technical concepts clearly to Chinese students and professionals.</p>
   <ul>
     <li><strong>M.Sc. Information Security, Southwest Jiaotong University</strong> (西南交通大学), Chengdu<br><em>Computing-focused postgraduate education covering secure systems, data integrity, algorithms, and quantitative problem-solving.</em></li>
     <li><strong>Extensive teaching and corporate training experience</strong> — university instruction and professional training at Midea Group and Hisense Group.</li>
     <li><strong>Applied Python and data systems experience</strong> — hands-on work with Python, Pandas, NumPy, Scikit-learn, data pipelines, document processing, and validation workflows.</li>
-    <li><strong>Established in Chengdu</strong> — studied and taught in Chengdu and founded a local AI, machine learning, and data science community.</li>
+    <li><strong>Established in Chengdu</strong> — studied and taught locally and founded an AI and machine learning meetup.</li>
   </ul>
 </div>
 
@@ -67,10 +67,10 @@ title: Home
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
       <td style="padding: 10px;"><strong>Fluent English</strong></td>
-      <td style="padding: 10px;">✅ Native English speaker with professional working Chinese</td>
+      <td style="padding: 10px;">✅ Native English speaker · Conversational Chinese</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Ability to develop teaching materials</strong></td>
+      <td style="padding: 10px;"><strong>Ability to develop course materials independently</strong></td>
       <td style="padding: 10px;">✅ Prepared a complete 64-hour Advanced Programming for Data Science syllabus with practical exercises, assessment criteria, and sample lecture slides</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">

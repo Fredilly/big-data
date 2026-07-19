@@ -143,7 +143,7 @@ title: Download CV
   <h2>🌐 Languages</h2>
   <div style="display: flex; gap: 24px;">
     <div><strong>English:</strong> Native</div>
-    <div><strong>Chinese:</strong> Professional working proficiency</div>
+    <div><strong>Chinese:</strong> Conversational proficiency</div>
   </div>
 </div>
 
