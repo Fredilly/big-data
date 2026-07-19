@@ -4,68 +4,80 @@ title: Home
 ---
 
 <div class="hero">
-  <div class="hero-badge">🎯 Targeting: Big Data Guest Lecturer — Chengdu, Sept–Dec 2026</div>
+  <div class="hero-badge">🎯 Available: Sept–Dec 2026 · Advanced Programming for Data Science</div>
   <h1>
     <span class="highlight">Fred Egbuedike</span>
     <br>弗雷德
   </h1>
-  <p class="subtitle">Data Science Practitioner · AI Community Builder · Tech Educator</p>
-  <p class="tagline-cn">M.Sc. Information Security · 西南交通大学 · Founder of Chengdu's First AI Meetup</p>
+  <p class="subtitle">Advanced Programming for Data Science Lecturer · Python Practitioner · Chengdu-based</p>
+  <p class="tagline-cn">M.Sc. Information Security · 西南交通大学 · 10+ Years Teaching & Corporate Training</p>
 
   <div class="hero-stats">
     <div class="stat">
-      <span class="num">2015–2018</span>
-      <span class="label">AI & ML Meetup Organizer (Chengdu)</span>
+      <span class="num">10+</span>
+      <span class="label">Years Teaching & Training</span>
     </div>
     <div class="stat">
-      <span class="num">10+</span>
-      <span class="label">Kaggle Competitions</span>
+      <span class="num">2015–2018</span>
+      <span class="label">AI Meetup Founder (Chengdu)</span>
     </div>
     <div class="stat">
       <span class="num">3</span>
-      <span class="label">Multinational Companies (Consultancy)</span>
+      <span class="label">Multinational Companies Trained</span>
     </div>
     <div class="stat">
-      <span class="num">中·英</span>
-      <span class="label">Bilingual Lecturer (EN/CN)</span>
+      <span class="num">🇬🇧</span>
+      <span class="label">Native English</span>
     </div>
   </div>
 
   <div>
-    <a href="{{ '/course' | relative_url }}" class="cta-button">📖 View Course Outline</a>
-    <a href="{{ '/meetup' | relative_url }}" class="cta-button outline">🏆 Chengdu AI Meetup 2018</a>
+    <a href="{{ '/course' | relative_url }}" class="cta-button">📖 View 64-Hour Syllabus</a>
+    <a href="{{ '/cv' | relative_url }}" class="cta-button" style="background: #2e7d32;">📄 Download CV</a>
+    <a href="{{ '/experience' | relative_url }}" class="cta-button outline">💼 Teaching Experience</a>
   </div>
 </div>
 
 <div class="card">
-  <h2>📍 About Me</h2>
-  <p>I'm a data science practitioner with a unique combination of technical background and <strong>deep roots in Chengdu</strong>. I hold an <strong>M.Sc. in Information Security from Southwest Jiaotong University</strong> (西南交通大学), and I organized <strong>Chengdu's very first AI and Machine Learning Meetup</strong> in 2018 — bringing together Google engineers, Chinese AI professionals, and the local tech community.</p>
-
-  <p>My career bridges <strong>data engineering, applied machine learning, and cross-cultural technical consulting</strong>. I've built data pipelines for complex carbon market methodologies at Article6, competed on Kaggle across multiple data science domains, and served as a language and technical consultant at <strong>Midea (美的集团)</strong> and <strong>Hisense (海信集团)</strong>, working alongside their legal, finance, research, and sales departments.</p>
-
-  <p>I'm now seeking to bring this experience into the classroom as a <strong>Big Data Guest Lecturer</strong> — helping the next generation of Chinese data scientists connect theory with real-world practice.</p>
+  <h2>🎯 Candidate Summary</h2>
+  <p><strong>Advanced Programming for Data Science Lecturer</strong> — available for the September–December 2026 teaching period at Chengdu university. Experienced in <strong>English-medium instruction</strong>, curriculum development, Python-based data processing, and explaining technical subjects to Chinese students and corporate professionals.</p>
+  <ul>
+    <li><strong>M.Sc. Information Security</strong> — Southwest Jiaotong University (西南交通大学), Chengdu<br><em>Computing-focused postgraduate degree covering secure systems, data integrity, and quantitative problem-solving</em></li>
+    <li><strong>10+ years of teaching and corporate training</strong> — university classroom, Midea (美的集团), Hisense (海信集团)</li>
+    <li><strong>Python & data systems practitioner</strong> — Pandas, NumPy, Scikit-learn, data pipelines, validation workflows at Article6</li>
+    <li><strong>Chengdu-based</strong> — I studied here, taught here, and built the local AI community here</li>
+  </ul>
 </div>
 
 <div class="card">
-  <h2>💡 Why Me for This Role?</h2>
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px;">
-    <div style="background: #f0f7ff; padding: 20px; border-radius: 8px;">
-      <strong>🎓 Local Education</strong><br>
-      <span style="font-size:0.9rem; color: var(--text-light);">Master's from SWJTU — I understand Chinese university systems and student expectations.</span>
-    </div>
-    <div style="background: #f0f7ff; padding: 20px; border-radius: 8px;">
-      <strong>🏙️ Chengdu Native(ish)</strong><br>
-      <span style="font-size:0.9rem; color: var(--text-light);">I built tech community here from scratch. I know the city, the students, the ecosystem.</span>
-    </div>
-    <div style="background: #f0f7ff; padding: 20px; border-radius: 8px;">
-      <strong>🧠 Industry Practice</strong><br>
-      <span style="font-size:0.9rem; color: var(--text-light);">Real data pipelines, real models, real corporate consulting — not just textbook knowledge.</span>
-    </div>
-    <div style="background: #f0f7ff; padding: 20px; border-radius: 8px;">
-      <strong>🗣️ Bilingual Delivery</strong><br>
-      <span style="font-size:0.9rem; color: var(--text-light);">Native English speaker with Chinese university experience — ideal for English-medium instruction.</span>
-    </div>
-  </div>
+  <h2>📋 How I Meet the Requirements</h2>
+
+  <table style="width:100%; border-collapse: collapse;">
+    <tr style="border-bottom: 2px solid var(--border);">
+      <th style="text-align: left; padding: 10px;">Requirement</th>
+      <th style="text-align: left; padding: 10px;">How I Meet It</th>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 10px;"><strong>Master's degree</strong> in computing-related field</td>
+      <td style="padding: 10px;">✅ M.Sc. Information Security, SWJTU</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 10px;"><strong>2–3 years teaching experience</strong></td>
+      <td style="padding: 10px;">✅ 10+ years: university (2013) + corporate training at Midea & Hisense</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 10px;"><strong>Native English speaker</strong></td>
+      <td style="padding: 10px;">✅ Native English · Conversational Chinese — capable of navigating daily classroom life in Chengdu</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 10px;"><strong>Create own PPTs & materials</strong></td>
+      <td style="padding: 10px;">✅ Designed full 64-hour syllabus with sample lecture slides on this site</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 10px;"><strong>On-site in Chengdu</strong></td>
+      <td style="padding: 10px;">✅ Based in Chengdu · M.Sc. from local university · Built community here</td>
+    </tr>
+  </table>
 </div>
 
 <div class="card">

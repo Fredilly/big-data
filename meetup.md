@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Chengdu's First AI Meetup (2018)
+title: Chengdu AI Meetup (2015–2018)
 ---
 
 <div class="card" style="text-align: center; padding: 40px;">
   <span style="font-size: 4rem;">🏆</span>
-  <h2 style="border: none; text-align: center;">Chengdu's First AI & Machine Learning Meetup</h2>
-  <p style="font-size: 1.2rem; color: var(--text-light);">Organized by Fred Egbuedike · 2018</p>
+  <h2 style="border: none; text-align: center;">Chengdu AI, Machine Learning & Data Science Meetup</h2>
+  <p style="font-size: 1.2rem; color: var(--text-light);">Founder & Organizer · 2015–2018</p>
 </div>
 
 <div class="card">
   <h2>The Story</h2>
 
-  <p>In 2018, the AI community in Chengdu was scattered — professionals, researchers, and enthusiasts had no regular gathering to share ideas, network, and learn from each other. I decided to change that.</p>
+  <p>In 2015, I noticed the AI community in Chengdu was scattered — professionals, researchers, and enthusiasts had no regular gathering to share ideas and learn from each other. I decided to start one.</p>
 
-  <p>I founded the <strong>"Chengdu AI, Machine Learning & Data Science Meetup"</strong> on Meetup.com — the very first organized AI meetup group in the city. What started as a small gathering quickly grew into a regular event series that brought together:</p>
+  <p>I founded the <strong>"Chengdu AI, Machine Learning & Data Science Meetup"</strong> on Meetup.com — one of the earliest AI-focused meetup groups in the city. It grew into a regular event series that brought together:</p>
 
   <ul>
     <li><strong>Google engineers</strong> working in AI and ML</li>
@@ -26,7 +26,6 @@ title: Chengdu's First AI Meetup (2018)
   <p>The meetup ran regularly from <strong>2015 through 2018</strong>, creating a lasting community for AI and machine learning in Chengdu.</p>
 </div>
 
-{% if site.static_files contains 'assets/meetup-screenshot.jpg' %}
 <div class="card" style="text-align: center;">
   <h2>📸 Meetup Notification Email</h2>
   <p style="color: var(--text-light); margin-bottom: 20px;">Original Meetup.com email notification — October 3, 2018</p>
@@ -35,12 +34,6 @@ title: Chengdu's First AI Meetup (2018)
     <em>"New members in Chengdu — AI, Machine Learning & Data Science meetup"</em>
   </p>
 </div>
-{% else %}
-<div class="card" style="text-align: center; background: #fff8e1; border-color: #ffe082;">
-  <p style="font-size: 1.1rem;">📷 <strong>Screenshot ready to add</strong></p>
-  <p>Place your meetup email screenshot at <code>assets/meetup-screenshot.jpg</code> and it will appear here automatically.</p>
-</div>
-{% endif %}
 
 <div class="card">
   <h2>Why This Matters</h2>
@@ -48,7 +41,7 @@ title: Chengdu's First AI Meetup (2018)
   <ul>
     <li><strong>Community building</strong> — Creating a space for knowledge sharing from nothing</li>
     <li><strong>Bridging cultures</strong> — Connecting international experts with local Chinese talent</li>
-    <li><strong>AI domain credibility</strong> — Deep engagement with the AI/ML space since before it was mainstream in China</li>
+    <li><strong>AI domain credibility</strong> — Engagement with the AI/ML space since 2015, before it was mainstream in China</li>
     <li><strong>Chengdu commitment</strong> — I didn't pass through Chengdu; I built community here</li>
   </ul>
 </div>

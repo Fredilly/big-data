@@ -1,17 +1,18 @@
 # Site settings
-title: "Fred Egbuedike — Big Data Lecturer"
+title: "Fred Egbuedike — Big Data"
 email: fredilly@gmail.com
 description: >
-  Founder of Chengdu's first AI meetup (2018). M.Sc. Information Security,
+  Founder of one of Chengdu's early AI meetups (2015–2018). M.Sc. Information Security,
   Southwest Jiaotong University. Data science practitioner, Kaggle competitor,
   and multilingual tech consultant.
-baseurl: "/big-data-lecturer"
+baseurl: "/big-data"
 url: "https://fredilly.github.io"
 github_username: Fredilly
 kaggle_username: fredilly
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
