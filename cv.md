@@ -6,11 +6,10 @@ title: Download CV
 <div class="card" style="text-align: center; padding: 40px;">
   <span style="font-size: 3rem;">📄</span>
   <h2 style="border: none; text-align: center;">Curriculum Vitae</h2>
-  <p style="font-size: 1.1rem; color: var(--text-light);">Fred Egbuedike · 弗雷德</p>
+  <p style="font-size: 1.1rem; color: var(--text-light);">Fred Egbuedike</p>
   <p style="margin: 20px 0;">
     <a href="javascript:window.print()" class="cta-button" style="background: #2e7d32;">🖨️ Print / Save as PDF</a>
   </p>
-  <p style="font-size: 0.85rem; color: var(--text-light);">Use your browser's Print dialog → "Save as PDF" to download</p>
 </div>
 
 <style media="print">
