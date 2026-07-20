@@ -24,6 +24,7 @@ title: Download CV
 <div class="card" style="text-align: center; border: none; box-shadow: none;">
   <h1 style="font-size: 2rem; margin-bottom: 4px; border: none;">Fred Egbuedike</h1>
   <p style="font-size: 1.1rem; color: #1a73e8; font-weight: 600; margin-bottom: 4px;">Advanced Programming for Data Science — Lecturer Candidate</p>
+  <p style="color: var(--text-light);">English Instructor, Chinese Academy of Sciences (中国科学院, CAS) · Midea · Hisense</p>
   <p style="color: var(--text-light);">fredilly@gmail.com · Chengdu, China · Native English · Conversational Chinese</p>
   <p style="color: var(--text-light);">Available: September – December 2026</p>
   <p style="font-size: 0.85rem; color: var(--text-light);">
@@ -35,11 +36,25 @@ title: Download CV
 
 <div class="card">
   <h2>Professional Summary</h2>
-  <p>University lecturer candidate with <strong>over a decade of teaching and corporate training experience</strong> in China, including university classroom instruction, executive education at a major internet company, and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Currently serving as an <strong>AI consultant</strong> for a children's publishing group. Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and AI systems practitioner with hands-on experience in data processing, NLP, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
+  <p>University lecturer candidate with <strong>over a decade of teaching and corporate training experience</strong> in China, including English communication training for <strong>60+ PhD students and researchers</strong> at the <strong>Chinese Academy of Sciences</strong> (中国科学院, CAS), university classroom instruction, executive education at a major internet company, and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Currently serving as an <strong>AI consultant</strong> for a children's publishing group. Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and AI systems practitioner with hands-on experience in data processing, NLP, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
 </div>
 
 <div class="card">
   <h2>🎓 Teaching & Training Experience</h2>
+
+  <div style="margin-bottom: 16px;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600;">
+      <span>English Instructor — Soft Skills & Academic Presentation Training</span>
+      <span style="color: var(--text-light);">2013</span>
+    </div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Chinese Academy of Sciences (中国科学院, CAS) — Chengdu, China</div>
+    <ul style="margin: 0;">
+      <li>Delivered English communication and presentation skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
+      <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
+      <li>Helped PhD students improve presentation structure, delivery, confidence, and technical explanations in English</li>
+      <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
+    </ul>
+  </div>
 
   <div style="margin-bottom: 16px;">
     <div style="display: flex; justify-content: space-between; font-weight: 600;">
@@ -104,20 +119,6 @@ title: Download CV
       <li>Built foundational experience in Chinese ESL pedagogy, student assessment, and curriculum delivery</li>
     </ul>
   </div>
-
-  <div>
-    <div style="display: flex; justify-content: space-between; font-weight: 600;">
-      <span>University Lecturer</span>
-      <span style="color: var(--text-light);">2013</span>
-    </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">University name TBC — Chengdu, China</div>
-    <ul style="margin: 0;">
-      <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
-      <li>Responsible for lesson planning, in-class presentation, student assessment, and curriculum delivery</li>
-      <li><em>University name to be confirmed — documentation available</em></li>
-    </ul>
-  </div>
-</div>
 
 <div class="card">
   <h2>🧮 Data & Technical Experience</h2>
