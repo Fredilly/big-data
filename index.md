@@ -42,6 +42,7 @@ title: Home
   <p>Advanced Programming for Data Science lecturer available for the September–December 2026 teaching period <strong>at a university in Chengdu</strong>. I have experience in English-medium university instruction, corporate training, curriculum development, Python-based data processing, and explaining technical concepts clearly to Chinese students and professionals.</p>
   <ul>
     <li><strong>M.Sc. Information Security, Southwest Jiaotong University</strong> (西南交通大学), Chengdu<br><em>Computing-focused postgraduate education covering secure systems, data integrity, algorithms, and quantitative problem-solving.</em></li>
+    <li><strong>Chinese Academy of Sciences (CAS)</strong> — English communication and presentation training delivered to <strong>60+ PhD students and researchers</strong> at a leading national research institution.</li>
     <li><strong>Teaching and training experience</strong> — university instruction, executive education at NetEase, and corporate training at Midea Group and Hisense Group.</li>
     <li><strong>AI consulting and data systems experience</strong> — hands-on work with Python, Pandas, NumPy, Scikit-learn, NLP, data pipelines, document processing, and validation workflows.</li>
     <li><strong>Established in Chengdu</strong> — studied and taught locally and founded an AI and machine learning meetup.</li>

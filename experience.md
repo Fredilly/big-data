@@ -13,6 +13,21 @@ title: Experience
   <h2>🎓 Teaching & Training Experience</h2>
 
   <div class="timeline-item">
+    <div class="date">March 2013 – August 2013</div>
+    <div class="org">
+      <strong>English Instructor — Soft Skills & Academic Presentation Training</strong><br>
+      <span class="org-cn">Chinese Academy of Sciences (CAS) · 中国科学院 — Chengdu</span>
+    </div>
+    <ul>
+      <li>Delivered English communication and professional skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
+      <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
+      <li>Helped PhD students improve presentation structure, delivery, confidence, and technical explanations in English</li>
+      <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
+      <li>Worked with advanced technical learners in a research-focused environment</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
     <div class="date">2025–Present</div>
     <div class="org">
       <strong>AI Consultant</strong><br>
@@ -81,7 +96,7 @@ title: Experience
     <div class="date">2013</div>
     <div class="org">
       <strong>University Lecturer</strong><br>
-      <span class="org-cn">University name to be confirmed — Chengdu area</span>
+      <span class="org-cn">Chengdu university — details to be confirmed</span>
     </div>
     <ul>
       <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
