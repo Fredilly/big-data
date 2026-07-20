@@ -12,14 +12,89 @@ title: Home
   <p class="hero-tagline">Python Practitioner · Technical Educator · Chengdu-Based</p>
   <p class="hero-experience">🎓 M.Sc. Information Security · Southwest Jiaotong University</p>
 
-  <div class="hero-stats">
-    <div class="stat">
-      <span class="num">2000+</span>
-      <span class="label">Students Trained</span>
+  <div class="data-dashboard" id="data-dashboard">
+    <!-- Panel 1: Teaching Data -->
+    <div class="dash-panel">
+      <div class="dash-panel-header">
+        <span class="dot green"></span>
+        TEACHING DATA
+        <span style="flex:1;"></span>
+        <span style="font-size:0.6rem;color:#3fb950;">● LIVE</span>
+      </div>
+
+      <div class="dash-metric">
+        <span class="value gold">10+</span>
+        <span class="label">Years Teaching &amp; Training</span>
+      </div>
+      <div class="dash-metric">
+        <span class="value gold">60+</span>
+        <span class="label">PhD Researchers Trained</span>
+      </div>
+      <div class="dash-metric">
+        <span class="value gold">3</span>
+        <span class="label">
+          Multinational Companies
+          <div style="margin-top:3px;">
+            <span class="dash-tag">Midea Group</span>
+            <span class="dash-tag">Hisense Group</span>
+            <span class="dash-tag">NetEase</span>
+          </div>
+        </span>
+      </div>
+      <div class="dash-metric">
+        <span class="value gold">1</span>
+        <span class="label">
+          AI Meetup Founded
+          <div style="margin-top:3px;">
+            <span class="dash-tag">Chengdu AI &amp; ML Meetup</span>
+          </div>
+        </span>
+      </div>
+
+      <div style="margin-top:14px;padding-top:10px;border-top:1px solid #1f2937;font-size:0.68rem;color:#8b949e;line-height:1.6;">
+        <span>🔬</span> Chinese Academy of Sciences (中国科学院)
+      </div>
     </div>
-    <div class="stat">
-      <span class="num">2013</span>
-      <span class="label">Earliest Teaching</span>
+
+    <!-- Panel 2: Chengdu Live Data -->
+    <div class="dash-panel">
+      <div class="dash-panel-header">
+        <span class="dot blue"></span>
+        CHENGDU DATA LIVE
+        <span style="flex:1;"></span>
+        <span style="font-size:0.6rem;color:#58a6ff;" id="dash-updated">● UPDATING</span>
+      </div>
+
+      <div class="dash-live-row">
+        <span class="lbl">🌡 Temperature</span>
+        <span class="val" id="dash-temp">-- °C</span>
+      </div>
+      <div class="dash-live-row">
+        <span class="lbl">☀️ Conditions</span>
+        <span class="val" id="dash-conditions">--</span>
+      </div>
+      <div class="dash-live-row">
+        <span class="lbl">💧 Humidity</span>
+        <span class="val" id="dash-humidity">--</span>
+      </div>
+      <div class="dash-live-row">
+        <span class="lbl">🌫 Air Quality (AQI)</span>
+        <span class="val" id="dash-aqi">-- <span class="small" id="dash-aqi-label">loading</span></span>
+      </div>
+      <div class="dash-live-row">
+        <span class="lbl">🚇 Metro</span>
+        <span class="val">721 km <span class="small">4th longest globally</span></span>
+      </div>
+      <div class="dash-live-row">
+        <span class="lbl">👥 Population</span>
+        <span class="val">20.9M <span class="small">metro area</span></span>
+      </div>
+
+      <div style="margin-top:10px;padding-top:8px;border-top:1px solid #1f2937;display:flex;gap:4px;flex-wrap:wrap;">
+        <span class="dash-tag">30.57°N 104.07°E</span>
+        <span class="dash-tag" id="dash-aqi-tag">AQI loading...</span>
+        <span class="dash-tag">Asia/Shanghai</span>
+      </div>
     </div>
   </div>
 
@@ -27,11 +102,6 @@ title: Home
     <a href="{{ '/course' | relative_url }}" class="cta-button">📖 View 64-Hour Syllabus</a>
     <a href="{{ '/cv' | relative_url }}" class="cta-button" style="background: #2e7d32;">📄 Download CV</a>
     <a href="{{ '/experience' | relative_url }}" class="cta-button outline">💼 Teaching Experience</a>
-  </div>
-
-  <div class="live-badge" id="live-badge">
-    <span class="live-dot"></span>
-    <span id="live-text">Loading Chengdu data…</span>
   </div>
 </div>
 
