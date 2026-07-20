@@ -157,17 +157,6 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 4px;
 }
 
-.stat .num .unit {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  margin-left: 2px;
-}
-
-.metro-stat .num {
-  color: var(--accent);
-}
-
 .stat .label {
   font-size: 0.8rem;
   color: var(--text-light);
