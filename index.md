@@ -141,34 +141,39 @@ title: Home
 </div>
 
 <div class="card">
-  <h2>📋 Alignment With the Position</h2>
+  <h2>🏆 Why I Am a Strong Fit</h2>
 
-  <table style="width:100%; border-collapse: collapse;">
-    <tr style="border-bottom: 2px solid var(--border);">
-      <th style="text-align: left; padding: 10px;">Requirement</th>
-      <th style="text-align: left; padding: 10px;">How I Meet It</th>
-    </tr>
-    <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Master's degree</strong> in a computing-related field</td>
-      <td style="padding: 10px;">✅ M.Sc. Information Security from Southwest Jiaotong University</td>
-    </tr>
-    <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Teaching experience with advanced learners</strong></td>
-      <td style="padding: 10px;">✅ More than 10 years of teaching and professional training experience, including English communication training for <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences (中国科学院)</td>
-    </tr>
-    <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Fluent English</strong></td>
-      <td style="padding: 10px;">✅ Native English speaker · Conversational Chinese</td>
-    </tr>
-    <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Ability to develop course materials independently</strong></td>
-      <td style="padding: 10px;">✅ Prepared a complete 64-hour Advanced Programming for Data Science syllabus with practical exercises, assessment criteria, and sample lecture slides</td>
-    </tr>
-    <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Available for on-site teaching in Chengdu</strong></td>
-      <td style="padding: 10px;">✅ Based in Chengdu and available from September through December 2026</td>
-    </tr>
-  </table>
+  <h3>Computing &amp; Data Science Background</h3>
+  <p>I hold an M.Sc. in Information Security from Southwest Jiaotong University (西南交通大学), Chengdu, providing a strong foundation in computing, secure systems, data integrity, and technical problem-solving.</p>
+  <p>I combine academic computing knowledge with practical experience in Python, data processing, AI applications, and software development.</p>
+
+  <h3>Technical Teaching Experience</h3>
+  <p>I bring extensive teaching and professional training experience in China, working with students, researchers, and industry professionals.</p>
+  <p>Highlights include:</p>
+  <ul>
+    <li>Delivered English communication and academic presentation training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences (中国科学院, CAS).</li>
+    <li>Provided professional training for multinational companies including <strong>Midea Group</strong> and <strong>Hisense Group</strong>.</li>
+    <li>Developed structured lessons, presentations, exercises, and practical learning materials.</li>
+  </ul>
+
+  <h3>English-Medium Technical Instruction</h3>
+  <p>As a native English speaker, I have extensive experience explaining complex concepts to Chinese learners and professionals.</p>
+  <p>My teaching approach focuses on making technical subjects clear, practical, and accessible through structured explanations, examples, and hands-on activities.</p>
+
+  <h3>Course Development</h3>
+  <p>I independently designed a 64-hour Advanced Programming for Data Science syllabus covering:</p>
+  <ul>
+    <li>Python programming</li>
+    <li>Data structures and algorithms</li>
+    <li>Data processing workflows</li>
+    <li>Data analysis with Python</li>
+    <li>Applied projects and practical exercises</li>
+  </ul>
+  <p>The course is designed to bridge programming fundamentals with real-world data science applications.</p>
+
+  <h3>Chengdu Connection</h3>
+  <p>I am based in Chengdu and have studied, taught, and worked in the city for many years.</p>
+  <p>My local experience includes Southwest Jiaotong University, Chinese Academy of Sciences (中国科学院), and building the Chengdu AI &amp; Machine Learning Meetup community.</p>
 </div>
 
 <div class="card">
