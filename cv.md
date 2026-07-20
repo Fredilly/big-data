@@ -24,7 +24,7 @@ title: Download CV
 <div class="card" style="text-align: center; border: none; box-shadow: none;">
   <h1 style="font-size: 2rem; margin-bottom: 4px; border: none;">Fred Egbuedike</h1>
   <p style="font-size: 1.1rem; color: #1a73e8; font-weight: 600; margin-bottom: 4px;">Advanced Programming for Data Science — Lecturer Candidate</p>
-  <p style="color: var(--text-light);">fredilly@gmail.com · Chengdu, China · Native English · Professional Chinese</p>
+  <p style="color: var(--text-light);">fredilly@gmail.com · Chengdu, China · Native English · Conversational Chinese</p>
   <p style="color: var(--text-light);">Available: September – December 2026</p>
   <p style="font-size: 0.85rem; color: var(--text-light);">
     <a href="https://fredilly.github.io/big-data">fredilly.github.io/big-data</a> ·
@@ -35,22 +35,21 @@ title: Download CV
 
 <div class="card">
   <h2>Professional Summary</h2>
-  <p>University lecturer candidate with <strong>teaching and corporate training experience</strong> in China, including university classroom instruction and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
+  <p>University lecturer candidate with <strong>over a decade of teaching and corporate training experience</strong> in China, including university classroom instruction, executive education at a major internet company, and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
 </div>
 
 <div class="card">
-  <h2>🎓 Teaching Experience</h2>
+  <h2>🎓 Teaching & Training Experience</h2>
 
   <div style="margin-bottom: 16px;">
     <div style="display: flex; justify-content: space-between; font-weight: 600;">
-      <span>University Lecturer</span>
-      <span style="color: var(--text-light);">2013</span>
+      <span>AI Consultant</span>
+      <span style="color: var(--text-light);">2025–Present</span>
     </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">University name TBC — Chengdu, China</div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">小海童话公司群 — Guangzhou</div>
     <ul style="margin: 0;">
-      <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
-      <li>Responsible for lesson planning, in-class presentation, student assessment, and curriculum delivery</li>
-      <li><em>University name to be confirmed — documentation available</em></li>
+      <li>Advise on AI integration and data-driven content strategies for a children's publishing group</li>
+      <li>Develop automated content analysis and recommendation workflows using Python and NLP</li>
     </ul>
   </div>
 
@@ -67,7 +66,7 @@ title: Download CV
     </ul>
   </div>
 
-  <div>
+  <div style="margin-bottom: 16px;">
     <div style="display: flex; justify-content: space-between; font-weight: 600;">
       <span>Language & Technical Consultant (Corporate Trainer)</span>
       <span style="color: var(--text-light);">2024–2025</span>
@@ -77,6 +76,44 @@ title: Download CV
       <li>Developed and delivered English-medium training for research, finance, legal, and sales departments</li>
       <li>Lesson planning, classroom management, and progress assessment for adult professionals</li>
       <li>Bilingual documentation and technical communication support</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 16px;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600;">
+      <span>Executive Lecturer</span>
+      <span style="color: var(--text-light);">2019–2020</span>
+    </div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">NetEase · 网易 — Guangzhou</div>
+    <ul style="margin: 0;">
+      <li>Delivered executive-level English and cross-cultural communication training for professionals at one of China's largest internet technology companies</li>
+      <li>Developed tailored curriculum addressing the specific language needs of technical and managerial staff</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 16px;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600;">
+      <span>ESL Instructor (Various Schools)</span>
+      <span style="color: var(--text-light);">2014–2018</span>
+    </div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Top language training schools — Nationwide</div>
+    <ul style="margin: 0;">
+      <li>Taught English to Chinese students across multiple proficiency levels at leading training institutions nationwide</li>
+      <li>Delivered both one-on-one and group classroom instruction, adapting methods to individual learner needs</li>
+      <li>Built foundational experience in Chinese ESL pedagogy, student assessment, and curriculum delivery</li>
+    </ul>
+  </div>
+
+  <div>
+    <div style="display: flex; justify-content: space-between; font-weight: 600;">
+      <span>University Lecturer</span>
+      <span style="color: var(--text-light);">2013</span>
+    </div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">University name TBC — Chengdu, China</div>
+    <ul style="margin: 0;">
+      <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
+      <li>Responsible for lesson planning, in-class presentation, student assessment, and curriculum delivery</li>
+      <li><em>University name to be confirmed — documentation available</em></li>
     </ul>
   </div>
 </div>

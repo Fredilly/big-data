@@ -10,21 +10,18 @@ title: Experience
 </div>
 
 <div class="card" style="border-left: 5px solid #c62828;">
-  <h2>🎓 Teaching Experience</h2>
+  <h2>🎓 Teaching & Training Experience</h2>
 
   <div class="timeline-item">
-    <div class="date">2013</div>
+    <div class="date">2025–Present</div>
     <div class="org">
-      <strong>University Lecturer</strong><br>
-      <span class="org-cn">University name to be confirmed — Chengdu area</span>
+      <strong>AI Consultant</strong><br>
+      <span class="org-cn">小海童话公司群 — Guangzhou</span>
     </div>
     <ul>
-      <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
-      <li>Responsible for complete course delivery: lesson planning, in-class presentation, student assessment, and grading</li>
-      <li>Developed course materials and exercises for mixed-ability student groups</li>
-      <li>Gained first-hand experience with Chinese university classroom dynamics, student expectations, and academic administration</li>
+      <li>Advise on AI integration and data-driven content strategies for a children's publishing group</li>
+      <li>Develop automated content analysis and recommendation workflows using Python and NLP</li>
     </ul>
-    <p><em>School name and course details to be updated once records are located — I am visiting the campus to confirm.</em></p>
   </div>
 
   <div class="timeline-item">
@@ -55,6 +52,46 @@ title: Experience
   </div>
 
   <div class="timeline-item">
+    <div class="date">2019–2020</div>
+    <div class="org">
+      <strong>Executive Lecturer</strong><br>
+      <span class="org-cn">NetEase · 网易 — Guangzhou</span>
+    </div>
+    <ul>
+      <li>Delivered executive-level English and cross-cultural communication training for professionals at one of China's largest internet technology companies</li>
+      <li>Developed tailored curriculum addressing the specific language needs of technical and managerial staff</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="date">2014–2018</div>
+    <div class="org">
+      <strong>ESL Instructor (Various Schools)</strong><br>
+      <span class="org-cn">Top language training schools — 1-on-1 and classroom settings</span>
+    </div>
+    <ul>
+      <li>Taught English to Chinese students across multiple proficiency levels at leading training institutions nationwide</li>
+      <li>Delivered both one-on-one and group classroom instruction, adapting methods to individual learner needs</li>
+      <li>Built foundational experience in Chinese ESL pedagogy, student assessment, and curriculum delivery</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item">
+    <div class="date">2013</div>
+    <div class="org">
+      <strong>University Lecturer</strong><br>
+      <span class="org-cn">University name to be confirmed — Chengdu area</span>
+    </div>
+    <ul>
+      <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
+      <li>Responsible for complete course delivery: lesson planning, in-class presentation, student assessment, and grading</li>
+      <li>Developed course materials and exercises for mixed-ability student groups</li>
+      <li>Gained first-hand experience with Chinese university classroom dynamics, student expectations, and academic administration</li>
+    </ul>
+    <p><em>School name and course details to be updated once records are located — I am visiting the campus to confirm.</em></p>
+  </div>
+
+  <div class="timeline-item">
     <div class="date">2015–2018</div>
     <div class="org">
       <strong>Founder & Organizer — Technical Learning Community</strong><br>
@@ -67,7 +104,7 @@ title: Experience
     </ul>
   </div>
 
-  <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> university classroom instruction and corporate training. All instruction delivered in English to Chinese learners.</p>
+  <p style="margin-top: 16px; font-size: 0.9rem; color: var(--text-light);"><strong>Total teaching & training experience:</strong> university instruction, corporate training, and executive education spanning 2013–present. All instruction delivered in English to Chinese learners.</p>
 </div>
 
 <div class="card">
