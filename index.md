@@ -10,21 +10,16 @@ title: Home
   </h1>
   <p class="subtitle">Advanced Programming for Data Science Lecturer</p>
   <p class="hero-tagline">Python Practitioner · Technical Educator · Chengdu-Based</p>
-  <p class="hero-credential">M.Sc. Information Security, Southwest Jiaotong University</p>
-  <p class="hero-experience">10+ Years of Teaching and Professional Training Experience</p>
+  <p class="hero-experience">🎓 M.Sc. Information Security · Southwest Jiaotong University</p>
 
   <div class="hero-stats">
     <div class="stat">
-      <span class="num">10+</span>
-      <span class="label">Years Teaching &amp; Training</span>
-    </div>
-    <div class="stat">
-      <span class="num">2015–2018</span>
-      <span class="label">Chengdu AI Meetup Founder</span>
-    </div>
-    <div class="stat">
       <span class="num">2000+</span>
       <span class="label">Students Trained</span>
+    </div>
+    <div class="stat">
+      <span class="num">2013</span>
+      <span class="label">Earliest Teaching</span>
     </div>
   </div>
 
@@ -42,16 +37,16 @@ title: Home
 
 <div class="card">
   <h2>🎯 Candidate Profile</h2>
-  <p>Lecturer candidate available to teach Advanced Programming for Data Science in Chengdu from September–December 2026 at a university in Chengdu. Previously taught academic presentation and communication skills to 60+ PhD researchers at the <strong>Chinese Academy of Sciences</strong> (中国科学院, CAS).</p>
+  <p>Technical educator and Python practitioner with experience teaching advanced learners in research institutions, universities, and multinational companies. Delivered academic communication training to 60+ PhD students and researchers at the <strong>Chinese Academy of Sciences</strong> (中国科学院), and developed practical training programs for professionals at Midea Group and Hisense Group.</p>
 
   <div class="exp-blocks">
-    <div class="exp-block">
+    <div class="exp-block exp-block-highlight">
       <div class="exp-block-icon">🔬</div>
       <div class="exp-block-body">
         <h3>Research Institution Experience</h3>
         <p class="exp-block-org"><strong>Chinese Academy of Sciences</strong> (中国科学院)</p>
-        <p class="exp-block-role">English Instructor · Soft Skills &amp; Academic Presentation Training</p>
-        <p class="exp-block-desc">Delivered communication and presentation training to <strong>60+ PhD students and researchers</strong> at one of China's leading scientific research institutions.</p>
+        <p class="exp-block-role">English Instructor · Academic Presentation &amp; Professional Communication Training</p>
+        <p class="exp-block-desc">Delivered communication and presentation training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences.</p>
       </div>
     </div>
 

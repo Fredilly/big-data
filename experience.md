@@ -12,6 +12,20 @@ title: Experience
 <div class="card" style="border-left: 5px solid #c62828;">
   <h2>🎓 Teaching & Training Experience</h2>
 
+  <div class="timeline-item" style="border-left-color: #c62828;">
+    <div class="date">March 2013 – August 2013</div>
+    <div class="org">
+      <strong>English Instructor — Academic Presentation & Professional Communication Training</strong><br>
+      <span class="org-cn">Chinese Academy of Sciences (中国科学院, CAS) — Chengdu</span>
+    </div>
+    <ul>
+      <li>Delivered English communication and presentation training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
+      <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
+      <li>Helped postgraduate researchers communicate complex scientific ideas clearly in English</li>
+      <li>Provided structured feedback on presentation organization, delivery, and confidence</li>
+      <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
+    </ul>
+  </div>
 
   <div class="timeline-item">
     <div class="date">2025–Present</div>
@@ -75,21 +89,6 @@ title: Experience
       <li>Taught English to Chinese students across multiple proficiency levels at leading training institutions nationwide</li>
       <li>Delivered both one-on-one and group classroom instruction, adapting methods to individual learner needs</li>
       <li>Built foundational experience in Chinese ESL pedagogy, student assessment, and curriculum delivery</li>
-    </ul>
-  </div>
-
-  <div class="timeline-item">
-    <div class="date">2013</div>
-    <div class="org">
-      <strong>English Instructor — Soft Skills & Academic Presentation Training</strong><br>
-      <span class="org-cn">Chinese Academy of Sciences (中国科学院, CAS) — Chengdu</span>
-    </div>
-    <ul>
-      <li>Delivered English communication and presentation skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
-      <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
-      <li>Helped PhD students improve presentation structure, delivery, confidence, and technical explanations in English</li>
-      <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
-      <li>Worked with advanced technical learners in a research-focused environment</li>
     </ul>
   </div>
 

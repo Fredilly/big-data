@@ -465,6 +465,15 @@ p:last-child { margin-bottom: 0; }
   box-shadow: var(--shadow-md);
 }
 
+.exp-block-highlight {
+  border-left: 4px solid #c62828;
+  background: #fff5f5;
+}
+
+.exp-block-highlight h3 {
+  color: #c62828;
+}
+
 .exp-block-icon {
   font-size: 1.6rem;
   min-width: 40px;
