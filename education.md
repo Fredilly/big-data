@@ -26,7 +26,7 @@ title: Education
   <h2>📜 Continuous Professional Development</h2>
 
   <div class="edu-row">
-    <div class="edu-icon">📜</div>
+    <div class="edu-icon">📊</div>
     <div class="edu-detail">
       <h3>Data Science & Machine Learning</h3>
       <p>Self-directed learning through meetup organization (2015–2018), Kaggle competitions (10+), and hands-on projects:</p>
@@ -37,6 +37,12 @@ title: Education
         <li>Computer vision (OpenCV) and deep learning (TensorFlow)</li>
       </ul>
     </div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>📜 Certifications</h2>
+
   <div class="edu-row">
     <div class="edu-icon">🌐</div>
     <div class="edu-detail">
