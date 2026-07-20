@@ -177,6 +177,20 @@ title: Download CV
 </div>
 
 <div class="card">
+  <h2>📜 Certifications</h2>
+  <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+    <div style="background: #f0f7ff; padding: 16px 20px; border-radius: 8px; flex: 1; min-width: 200px;">
+      <strong>🌐 CCNA</strong><br>
+      <span style="color: var(--text-light); font-size: 0.9rem;">Cisco Certified Network Associate · 2011</span>
+    </div>
+    <div style="background: #f0f7ff; padding: 16px 20px; border-radius: 8px; flex: 1; min-width: 200px;">
+      <strong>🔄 ITIL</strong><br>
+      <span style="color: var(--text-light); font-size: 0.9rem;">Information Technology Infrastructure Library · 2011</span>
+    </div>
+  </div>
+</div>
+
+<div class="card">
   <h2>🌐 Languages</h2>
   <div style="display: flex; gap: 24px;">
     <div><strong>English:</strong> Native</div>
