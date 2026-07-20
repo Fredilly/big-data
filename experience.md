@@ -29,7 +29,7 @@ title: Experience
     <div class="date">2024–2025</div>
     <div class="org">
       <strong>Language & Technical Trainer</strong><br>
-      <span class="org-cn">Midea Group · 美的集团 — Shunde, Guangdong</span>
+      <span class="org-cn">Midea Group · 美的集团 — Foshan, Guangdong</span>
     </div>
     <ul>
       <li>Designed and delivered English-medium technical training courses for Chinese professionals across legal, finance, R&D, and sales departments</li>
@@ -110,7 +110,7 @@ title: Experience
 
 <div class="card">
   <h2>📸 Corporate Training — In the Field</h2>
-  <p style="color: var(--text-light); margin-bottom: 16px;">On-site training sessions at Midea Group and Hisense Group, Shunde, Guangdong (2024–2025)</p>
+  <p style="color: var(--text-light); margin-bottom: 16px;">On-site training sessions at Midea Group and Hisense Group, Guangdong (2024–2025)</p>
 
   <div class="gallery">
     <div class="gallery-item">

@@ -60,7 +60,7 @@ title: Download CV
       <span>Language & Technical Consultant (Corporate Trainer)</span>
       <span style="color: var(--text-light);">2024–2025</span>
     </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Midea Group · 美的集团 — Shunde, Guangdong</div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Midea Group · 美的集团 — Foshan, Guangdong</div>
     <ul style="margin: 0;">
       <li>Designed and delivered English-medium technical training for Chinese professionals across legal, finance, R&D, and sales departments</li>
       <li>Created course materials, exercises, and assessments for mixed-ability adult learners</li>
