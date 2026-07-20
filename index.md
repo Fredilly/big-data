@@ -7,10 +7,8 @@ title: Home
   <div class="hero-badge">🎯 Available Sept–Dec 2026 · Chengdu</div>
   <h1>
     <span class="highlight">Fred Egbuedike</span>
-    <br>弗雷德
   </h1>
-  <p class="subtitle">Advanced Programming for Data Science Lecturer</p>
-  <p class="tagline-cn">M.Sc. Information Security · Southwest Jiaotong University (西南交通大学)</p>
+  <p class="subtitle">Advanced Programming for Data Science Lecturer — Python · Educator · Chengdu</p>
 
   <div class="hero-stats">
     <div class="stat">
@@ -24,10 +22,6 @@ title: Home
     <div class="stat">
       <span class="num">100+</span>
       <span class="label">Students Trained</span>
-    </div>
-    <div class="stat">
-      <span class="num">🇬🇧</span>
-      <span class="label">Native English · 中文可</span>
     </div>
   </div>
 
