@@ -42,8 +42,7 @@ title: Home
 
 <div class="card">
   <h2>🎯 Candidate Profile</h2>
-  <p>Lecturer candidate available to teach Advanced Programming for Data Science in Chengdu from September–December 2026.</p>
-  <p>I bring experience combining technical knowledge with education: teaching English and professional communication skills to researchers at the <strong>Chinese Academy of Sciences</strong> (中国科学院), delivering corporate training for multinational companies, and developing Python-based data and AI applications.</p>
+  <p>Lecturer candidate available to teach Advanced Programming for Data Science in Chengdu from September–December 2026 at a university in Chengdu. Previously taught academic presentation and communication skills to 60+ PhD researchers at the <strong>Chinese Academy of Sciences</strong> (中国科学院, CAS).</p>
 
   <div class="exp-blocks">
     <div class="exp-block">

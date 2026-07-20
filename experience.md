@@ -13,13 +13,13 @@ title: Experience
   <h2>🎓 Teaching & Training Experience</h2>
 
   <div class="timeline-item">
-    <div class="date">March 2013 – August 2013</div>
+    <div class="date">2013</div>
     <div class="org">
       <strong>English Instructor — Soft Skills & Academic Presentation Training</strong><br>
-      <span class="org-cn">Chinese Academy of Sciences (CAS) · 中国科学院 — Chengdu</span>
+      <span class="org-cn">Chinese Academy of Sciences (中国科学院, CAS) — Chengdu</span>
     </div>
     <ul>
-      <li>Delivered English communication and professional skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
+      <li>Delivered English communication and presentation skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
       <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
       <li>Helped PhD students improve presentation structure, delivery, confidence, and technical explanations in English</li>
       <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
@@ -90,21 +90,6 @@ title: Experience
       <li>Delivered both one-on-one and group classroom instruction, adapting methods to individual learner needs</li>
       <li>Built foundational experience in Chinese ESL pedagogy, student assessment, and curriculum delivery</li>
     </ul>
-  </div>
-
-  <div class="timeline-item">
-    <div class="date">2013</div>
-    <div class="org">
-      <strong>University Lecturer</strong><br>
-      <span class="org-cn">Chengdu university — details to be confirmed</span>
-    </div>
-    <ul>
-      <li>Delivered classroom instruction in an English-medium environment at a Chinese university</li>
-      <li>Responsible for complete course delivery: lesson planning, in-class presentation, student assessment, and grading</li>
-      <li>Developed course materials and exercises for mixed-ability student groups</li>
-      <li>Gained first-hand experience with Chinese university classroom dynamics, student expectations, and academic administration</li>
-    </ul>
-    <p><em>School name and course details to be confirmed — I am visiting the campus to verify.</em></p>
   </div>
 
   <div class="timeline-item">
