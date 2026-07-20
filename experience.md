@@ -104,7 +104,7 @@ title: Experience
       <li>Developed course materials and exercises for mixed-ability student groups</li>
       <li>Gained first-hand experience with Chinese university classroom dynamics, student expectations, and academic administration</li>
     </ul>
-    <p><em>School name and course details to be updated once records are located — I am visiting the campus to confirm.</em></p>
+    <p><em>School name and course details to be confirmed — I am visiting the campus to verify.</em></p>
   </div>
 
   <div class="timeline-item">
