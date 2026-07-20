@@ -8,7 +8,10 @@ title: Home
   <h1>
     <span class="highlight">Fred Egbuedike</span>
   </h1>
-  <p class="subtitle">Advanced Programming for Data Science Lecturer — Python · Educator · Chengdu</p>
+  <p class="subtitle">Advanced Programming for Data Science Lecturer</p>
+  <p class="hero-tagline">Python Practitioner · Technical Educator · Chengdu-Based</p>
+  <p class="hero-credential">M.Sc. Information Security, Southwest Jiaotong University</p>
+  <p class="hero-experience">10+ Years of Teaching and Professional Training Experience</p>
 
   <div class="hero-stats">
     <div class="stat">
@@ -39,14 +42,38 @@ title: Home
 
 <div class="card">
   <h2>🎯 Candidate Profile</h2>
-  <p>Advanced Programming for Data Science lecturer available for the September–December 2026 teaching period <strong>at a university in Chengdu</strong>. I have experience in English-medium university instruction, corporate training, curriculum development, Python-based data processing, and explaining technical concepts clearly to Chinese students and professionals.</p>
-  <ul>
-    <li><strong>M.Sc. Information Security, Southwest Jiaotong University</strong> (西南交通大学), Chengdu<br><em>Computing-focused postgraduate education covering secure systems, data integrity, algorithms, and quantitative problem-solving.</em></li>
-    <li><strong>Chinese Academy of Sciences (CAS)</strong> — English communication and presentation training delivered to <strong>60+ PhD students and researchers</strong> at a leading national research institution.</li>
-    <li><strong>Teaching and training experience</strong> — university instruction, executive education at NetEase, and corporate training at Midea Group and Hisense Group.</li>
-    <li><strong>AI consulting and data systems experience</strong> — hands-on work with Python, Pandas, NumPy, Scikit-learn, NLP, data pipelines, document processing, and validation workflows.</li>
-    <li><strong>Established in Chengdu</strong> — studied and taught locally and founded an AI and machine learning meetup.</li>
-  </ul>
+  <p>Lecturer candidate available to teach Advanced Programming for Data Science in Chengdu from September–December 2026.</p>
+  <p>I bring experience combining technical knowledge with education: teaching English and professional communication skills to researchers at the <strong>Chinese Academy of Sciences</strong> (中国科学院), delivering corporate training for multinational companies, and developing Python-based data and AI applications.</p>
+
+  <div class="exp-blocks">
+    <div class="exp-block">
+      <div class="exp-block-icon">🔬</div>
+      <div class="exp-block-body">
+        <h3>Research Institution Experience</h3>
+        <p class="exp-block-org"><strong>Chinese Academy of Sciences</strong> (中国科学院)</p>
+        <p class="exp-block-role">English Instructor · Soft Skills &amp; Academic Presentation Training</p>
+        <p class="exp-block-desc">Delivered communication and presentation training to <strong>60+ PhD students and researchers</strong> at one of China's leading scientific research institutions.</p>
+      </div>
+    </div>
+
+    <div class="exp-block">
+      <div class="exp-block-icon">🏢</div>
+      <div class="exp-block-body">
+        <h3>Corporate Training Experience</h3>
+        <p class="exp-block-org"><strong>Midea Group · Hisense Group</strong></p>
+        <p class="exp-block-desc">Delivered English and professional skills training for engineers and business professionals in multinational companies.</p>
+      </div>
+    </div>
+
+    <div class="exp-block">
+      <div class="exp-block-icon">💻</div>
+      <div class="exp-block-body">
+        <h3>Technical Education Experience</h3>
+        <p class="exp-block-org"><strong>Python · Data Processing · AI Applications</strong></p>
+        <p class="exp-block-desc">Developed practical learning materials and explained complex technical concepts to students, researchers, and professionals.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="card">
@@ -62,8 +89,8 @@ title: Home
       <td style="padding: 10px;">✅ M.Sc. Information Security from Southwest Jiaotong University</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
-      <td style="padding: 10px;"><strong>Minimum two to three years of teaching experience</strong></td>
-      <td style="padding: 10px;">✅ More than eight years of university teaching and corporate training experience in China</td>
+      <td style="padding: 10px;"><strong>Teaching experience with advanced learners</strong></td>
+      <td style="padding: 10px;">✅ More than 10 years of teaching and professional training experience, including English communication training for <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences (中国科学院)</td>
     </tr>
     <tr style="border-bottom: 1px solid var(--border);">
       <td style="padding: 10px;"><strong>Fluent English</strong></td>
