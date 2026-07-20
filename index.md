@@ -20,7 +20,7 @@ title: Home
       <span class="label">Chengdu AI Meetup Founder</span>
     </div>
     <div class="stat">
-      <span class="num">100+</span>
+      <span class="num">2000+</span>
       <span class="label">Students Trained</span>
     </div>
   </div>
