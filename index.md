@@ -67,7 +67,7 @@ title: Home
   <ul>
     <li><strong>M.Sc. Information Security, Southwest Jiaotong University</strong> (西南交通大学), Chengdu<br><em>Computing-focused postgraduate education covering secure systems, data integrity, algorithms, and quantitative problem-solving.</em></li>
     <li><strong>Teaching and training experience</strong> — university instruction, executive education at NetEase, and corporate training at Midea Group and Hisense Group.</li>
-    <li><strong>Applied Python and data systems experience</strong> — hands-on work with Python, Pandas, NumPy, Scikit-learn, data pipelines, document processing, and validation workflows.</li>
+    <li><strong>AI consulting and data systems experience</strong> — hands-on work with Python, Pandas, NumPy, Scikit-learn, NLP, data pipelines, document processing, and validation workflows.</li>
     <li><strong>Established in Chengdu</strong> — studied and taught locally and founded an AI and machine learning meetup.</li>
   </ul>
 </div>

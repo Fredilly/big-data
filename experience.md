@@ -16,11 +16,12 @@ title: Experience
     <div class="date">2025–Present</div>
     <div class="org">
       <strong>AI Consultant</strong><br>
-      <span class="org-cn">小海童话公司群 — Guangzhou</span>
+      <span class="org-cn">小海童话公司群 — Chengdu</span>
     </div>
     <ul>
-      <li>Advise on AI integration and data-driven content strategies for a children's publishing group</li>
-      <li>Develop automated content analysis and recommendation workflows using Python and NLP</li>
+      <li>Advise on AI strategy and data-driven product development for a children's publishing group, applying NLP and machine learning to content analysis and recommendation systems</li>
+      <li>Design and implement automated workflows for content classification, readability assessment, and personalized learning path generation using Python</li>
+      <li>Bridge technical AI capabilities with editorial and business decisions, translating data insights into actionable content strategies</li>
     </ul>
   </div>
 
@@ -175,12 +176,12 @@ title: Experience
     <div class="date">2024–Present</div>
     <div class="org"><strong>Data & Validation Engineer — Article6</strong></div>
     <ul>
-      <li>Built Python-based document processing and validation workflows that convert long-form regulatory PDFs into structured JSON rule sets</li>
-      <li>Designed deterministic validation tests covering data integrity, schema conformity, evidence provenance, and reproducibility</li>
-      <li>Developed and maintained a production web application combining document extraction, data normalization, and AI-assisted analysis</li>
-      <li>Worked with semi-structured data: multi-sheet spreadsheets, regulatory PDFs, JSON schemas</li>
+      <li>Engineered Python-based document processing systems that extract, parse, and validate data from the most complex regulatory PDF methodologies — converting multi-layered technical documents spanning hundreds of pages into structured, auditable JSON rule sets</li>
+      <li>Designed deterministic validation frameworks covering data integrity, schema conformity, evidence provenance, and full reproducibility — ensuring that every data transformation is traceable and verifiable</li>
+      <li>Built and maintain a production web application combining document intelligence, data normalization, and AI-assisted analysis for high-stakes compliance workflows</li>
+      <li>Worked with semi-structured data at scale: multi-sheet spreadsheets, cross-referenced regulatory PDFs, deeply nested JSON schemas, and multi-format data pipelines</li>
     </ul>
-    <p><em>Key tools: Python, Pandas, JSON, automated validation frameworks</em></p>
+    <p><em>Key tools: Python, Pandas, JSON Schema, custom validation frameworks, AI-augmented document processing</em></p>
   </div>
 
   <div class="timeline-item">

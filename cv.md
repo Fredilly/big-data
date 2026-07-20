@@ -35,7 +35,7 @@ title: Download CV
 
 <div class="card">
   <h2>Professional Summary</h2>
-  <p>University lecturer candidate with <strong>over a decade of teaching and corporate training experience</strong> in China, including university classroom instruction, executive education at a major internet company, and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and data systems practitioner with hands-on experience in data processing, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
+  <p>University lecturer candidate with <strong>over a decade of teaching and corporate training experience</strong> in China, including university classroom instruction, executive education at a major internet company, and cross-departmental training at two of China's largest multinational corporations (Midea Group and Hisense Group). Currently serving as an <strong>AI consultant</strong> for a children's publishing group. Holds a <strong>Master of Science in Information Security</strong> from <strong>Southwest Jiaotong University</strong> (西南交通大学) in Chengdu. Python and AI systems practitioner with hands-on experience in data processing, NLP, validation pipelines, and applied machine learning. Founder of <strong>one of Chengdu's earliest AI and Machine Learning meetups</strong> (2015–2018), with a record of building cross-cultural technical learning communities.</p>
 </div>
 
 <div class="card">
@@ -46,10 +46,11 @@ title: Download CV
       <span>AI Consultant</span>
       <span style="color: var(--text-light);">2025–Present</span>
     </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">小海童话公司群 — Guangzhou</div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">小海童话公司群 — Chengdu</div>
     <ul style="margin: 0;">
-      <li>Advise on AI integration and data-driven content strategies for a children's publishing group</li>
-      <li>Develop automated content analysis and recommendation workflows using Python and NLP</li>
+      <li>Advise on AI strategy and data-driven product development for a children's publishing group, applying NLP and machine learning to content analysis and recommendation systems</li>
+      <li>Design and implement automated workflows for content classification, readability assessment, and personalized learning path generation using Python</li>
+      <li>Bridge technical AI capabilities with editorial and business decisions, translating data insights into actionable content strategies</li>
     </ul>
   </div>
 
@@ -127,10 +128,10 @@ title: Download CV
       <span style="color: var(--text-light);">2024–Present</span>
     </div>
     <ul style="margin: 0;">
-      <li>Built Python document-processing and validation workflows converting long-form PDF methodologies into structured JSON rule sets</li>
-      <li>Designed deterministic validation tests covering data integrity, schema conformity, evidence provenance, and reproducibility</li>
-      <li>Developed and maintained a production web application combining document extraction, data normalization, and AI-assisted analysis</li>
-      <li>Tools: Python, Pandas, JSON, automated validation frameworks, AI agent workflows</li>
+      <li>Engineered Python-based document processing systems that extract, parse, and validate data from the most complex regulatory PDF methodologies — converting multi-layered technical documents spanning hundreds of pages into structured, auditable JSON rule sets</li>
+      <li>Designed deterministic validation frameworks covering data integrity, schema conformity, evidence provenance, and full reproducibility — ensuring that every data transformation is traceable and verifiable</li>
+      <li>Built and maintain a production web application combining document intelligence, data normalization, and AI-assisted analysis for high-stakes compliance workflows</li>
+      <li>Tools: Python, Pandas, JSON Schema, custom validation frameworks, AI-augmented document processing</li>
     </ul>
   </div>
 
