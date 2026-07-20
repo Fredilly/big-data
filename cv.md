@@ -42,19 +42,6 @@ title: Download CV
 <div class="card">
   <h2>🎓 Teaching & Training Experience</h2>
 
-  <div style="margin-bottom: 16px;">
-    <div style="display: flex; justify-content: space-between; font-weight: 600;">
-      <span>English Instructor — Soft Skills & Academic Presentation Training</span>
-      <span style="color: var(--text-light);">2013</span>
-    </div>
-    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Chinese Academy of Sciences (中国科学院, CAS) — Chengdu, China</div>
-    <ul style="margin: 0;">
-      <li>Delivered English communication and presentation skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
-      <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
-      <li>Helped PhD students improve presentation structure, delivery, confidence, and technical explanations in English</li>
-      <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
-    </ul>
-  </div>
 
   <div style="margin-bottom: 16px;">
     <div style="display: flex; justify-content: space-between; font-weight: 600;">
@@ -117,6 +104,20 @@ title: Download CV
       <li>Taught English to Chinese students across multiple proficiency levels at leading training institutions nationwide</li>
       <li>Delivered both one-on-one and group classroom instruction, adapting methods to individual learner needs</li>
       <li>Built foundational experience in Chinese ESL pedagogy, student assessment, and curriculum delivery</li>
+    </ul>
+  </div>
+
+  <div style="margin-bottom: 16px;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600;">
+      <span>English Instructor — Soft Skills & Academic Presentation Training</span>
+      <span style="color: var(--text-light);">2013</span>
+    </div>
+    <div style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 6px;">Chinese Academy of Sciences (中国科学院, CAS) — Chengdu, China</div>
+    <ul style="margin: 0;">
+      <li>Delivered English communication and presentation skills training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences</li>
+      <li>Designed and delivered training focused on academic presentations, professional communication, and research communication skills</li>
+      <li>Helped PhD students improve presentation structure, delivery, confidence, and technical explanations in English</li>
+      <li>Created practical exercises and feedback sessions tailored to postgraduate researchers and scientific professionals</li>
     </ul>
   </div>
 
