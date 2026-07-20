@@ -98,7 +98,7 @@ p:last-child { margin-bottom: 0; }
 /* ===== Hero Section ===== */
 .hero {
   text-align: center;
-  padding: 64px 0 48px;
+  padding: 56px 0 40px;
   position: relative;
 }
 
@@ -106,7 +106,7 @@ p:last-child { margin-bottom: 0; }
   font-size: 3rem;
   font-weight: 800;
   line-height: 1.15;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
 
 .hero h1 .highlight {
@@ -117,27 +117,27 @@ p:last-child { margin-bottom: 0; }
 }
 
 .hero .subtitle {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: var(--text-light);
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   font-weight: 500;
 }
 
 .hero .tagline-cn {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--text-muted);
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 
 .hero-badge {
   display: inline-block;
   background: var(--primary-light);
   color: var(--primary);
-  padding: 8px 22px;
+  padding: 6px 20px;
   border-radius: 50px;
   font-weight: 600;
-  font-size: 0.85rem;
-  margin-bottom: 24px;
+  font-size: 0.82rem;
+  margin-bottom: 20px;
   letter-spacing: 0.01em;
 }
 
@@ -145,8 +145,8 @@ p:last-child { margin-bottom: 0; }
 .hero-stats {
   display: flex;
   justify-content: center;
-  gap: 48px;
-  margin: 36px 0;
+  gap: 40px;
+  margin: 32px 0 40px;
   flex-wrap: wrap;
 }
 
@@ -155,7 +155,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .stat .num {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 800;
   color: var(--primary);
   display: block;
@@ -164,53 +164,10 @@ p:last-child { margin-bottom: 0; }
 }
 
 .stat .label {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--text-light);
   font-weight: 500;
   letter-spacing: 0.02em;
-}
-
-/* ===== Data Stats Bar (Big Data vibe) ===== */
-.data-stats-bar {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
-  margin: 32px 0 40px;
-  padding: 24px;
-  background: linear-gradient(135deg, #0d47a1, #1a73e8);
-  border-radius: var(--radius);
-  color: white;
-  box-shadow: 0 8px 32px rgba(26, 115, 232, 0.25);
-}
-
-.data-stat {
-  text-align: center;
-  padding: 8px;
-}
-
-.data-stat .data-value {
-  font-size: 1.8rem;
-  font-weight: 800;
-  display: block;
-  line-height: 1.2;
-  font-family: 'JetBrains Mono', monospace;
-  letter-spacing: -0.02em;
-}
-
-.data-stat .data-label {
-  font-size: 0.78rem;
-  opacity: 0.85;
-  display: block;
-  margin-top: 4px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.data-stat .data-icon {
-  font-size: 1.4rem;
-  margin-bottom: 6px;
-  display: block;
 }
 
 /* ===== Buttons ===== */

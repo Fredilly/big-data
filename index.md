@@ -4,53 +4,30 @@ title: Home
 ---
 
 <div class="hero">
-  <div class="hero-badge">🎯 Available: Sept–Dec 2026 · Advanced Programming for Data Science</div>
+  <div class="hero-badge">🎯 Available Sept–Dec 2026 · Chengdu</div>
   <h1>
     <span class="highlight">Fred Egbuedike</span>
     <br>弗雷德
   </h1>
-  <p class="subtitle">Advanced Programming for Data Science Lecturer · Python Practitioner · Experienced Educator · Chengdu-Based</p>
-  <p class="tagline-cn">M.Sc. Information Security · Southwest Jiaotong University · 10+ Years Teaching & Training</p>
+  <p class="subtitle">Advanced Programming for Data Science Lecturer</p>
+  <p class="tagline-cn">M.Sc. Information Security · Southwest Jiaotong University (西南交通大学)</p>
 
   <div class="hero-stats">
     <div class="stat">
       <span class="num">10+</span>
-      <span class="label">Years Teaching and Training</span>
+      <span class="label">Years Teaching &amp; Training</span>
     </div>
     <div class="stat">
       <span class="num">2015–2018</span>
-      <span class="label">AI Meetup Founder (Chengdu)</span>
+      <span class="label">Chengdu AI Meetup Founder</span>
     </div>
     <div class="stat">
-      <span class="num">3</span>
-      <span class="label">Corporate Training at 3 Multinational Companies</span>
+      <span class="num">100+</span>
+      <span class="label">Students Trained</span>
     </div>
     <div class="stat">
       <span class="num">🇬🇧</span>
-      <span class="label">Native English Speaker</span>
-    </div>
-  </div>
-
-  <div class="data-stats-bar">
-    <div class="data-stat">
-      <span class="data-icon">📖</span>
-      <span class="data-value">64</span>
-      <span class="data-label">Teaching Hours</span>
-    </div>
-    <div class="data-stat">
-      <span class="data-icon">👨‍🎓</span>
-      <span class="data-value">100+</span>
-      <span class="data-label">Students Trained</span>
-    </div>
-    <div class="data-stat">
-      <span class="data-icon">🏢</span>
-      <span class="data-value">2</span>
-      <span class="data-label">Multinational Companies</span>
-    </div>
-    <div class="data-stat">
-      <span class="data-icon">📅</span>
-      <span class="data-value">10+</span>
-      <span class="data-label">Years Teaching</span>
+      <span class="label">Native English · 中文可</span>
     </div>
   </div>
 
