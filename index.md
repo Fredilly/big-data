@@ -23,12 +23,21 @@ title: Home
       <span class="num">2000+</span>
       <span class="label">Students Trained</span>
     </div>
+    <div class="stat metro-stat">
+      <span class="num">721<span class="unit">km</span></span>
+      <span class="label">Chengdu Metro · 4th Longest in the World</span>
+    </div>
   </div>
 
   <div>
     <a href="{{ '/course' | relative_url }}" class="cta-button">📖 View 64-Hour Syllabus</a>
     <a href="{{ '/cv' | relative_url }}" class="cta-button" style="background: #2e7d32;">📄 Download CV</a>
     <a href="{{ '/experience' | relative_url }}" class="cta-button outline">💼 Teaching Experience</a>
+  </div>
+
+  <div class="live-badge" id="live-badge">
+    <span class="live-dot"></span>
+    <span id="live-text">Loading Chengdu data…</span>
   </div>
 </div>
 

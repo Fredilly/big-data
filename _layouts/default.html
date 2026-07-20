@@ -38,5 +38,24 @@
       <a href="https://kaggle.com/{{ site.kaggle_username }}">Kaggle</a></p>
     </div>
   </footer>
+
+<script>
+async function loadChengduData() {
+  const badge = document.getElementById('live-text');
+  if (!badge) return;
+  try {
+    const res = await fetch('https://api.open-meteo.com/v1/forecast?latitude=30.5728&longitude=104.0668&current=temperature_2m,relative_humidity_2m,weather_code&timezone=Asia/Shanghai');
+    const data = await res.json();
+    const t = Math.round(data.current.temperature_2m);
+    const h = data.current.relative_humidity_2m;
+    const codes = {0:'☀️',1:'🌤️',2:'⛅',3:'☁️',45:'🌫️',48:'🌫️',51:'🌦️',61:'🌧️',71:'🌨️',95:'⛈️'};
+    const icon = codes[data.current.weather_code] || '🌤️';
+    badge.innerHTML = `${icon} Chengdu now: <strong>${t}°C</strong> · ${h}% humidity · 🚇 721 km metro`;
+  } catch {
+    badge.innerHTML = '🚇 Chengdu Metro: 721 km · 4th longest in the world';
+  }
+}
+loadChengduData();
+</script>
 </body>
 </html>
