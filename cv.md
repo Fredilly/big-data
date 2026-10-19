@@ -3,9 +3,11 @@ layout: default
 title: Curriculum Vitae | 2027 Lecturer Application
 ---
 
+<div class="academic-page" markdown="1">
+
 # Fred Egbuedike
 
-**Data Science & Big Data Technology | University Lecturer Candidate**
+<p class="academic-subtitle">Data Science &amp; Big Data Technology · University Lecturer Candidate</p>
 
 Chengdu, China · [fredilly@gmail.com](mailto:fredilly@gmail.com) · [GitHub](https://github.com/Fredilly) · [Teaching portfolio]({{ '/course' | relative_url }})
 
@@ -62,4 +64,6 @@ Organized technical community activities and knowledge sharing. [Supporting evid
 
 English-medium lessons, structured demonstrations, project-based assignments, lab exercises, feedback rubrics and progressive assessments. Content and platforms to be aligned with the host university's approved syllabus.
 
-**Languages:** English (native); Chinese (conversational).
+
+
+</div>
