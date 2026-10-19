@@ -56,7 +56,14 @@ title: Fred Egbuedike | Data Science and Technology Lecturer
           <text id="viz-caption" x="40" y="87" fill="#91c9ff" font-size="15" font-family="Inter,sans-serif">Waiting for live signals…</text>
         </svg>
       </div>
-      <p class="city-footnote">Illustrative skyline, not a geographic rendering. Weather and US AQI from <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a>; AQI is modelled, not a local sensor reading. Data updates on refresh.</p>
+      <div class="signal-analytics">
+  <div class="signal-chart-title"><strong>Next 24 hours</strong><span>Hourly temperature forecast · °C</span></div>
+  <div id="city-forecast" class="signal-chart" role="img" aria-label="Loading 24-hour forecast chart">Loading forecast…</div>
+  <div class="signal-chart-title signal-aqi-title"><strong>Air quality</strong><span id="city-aqi-detail">Modelled US AQI</span></div>
+  <div class="aqi-scale" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><i id="aqi-marker"></i></div>
+  <div class="aqi-scale-labels"><span>Good · 0</span><span>Moderate · 100</span><span>Hazardous · 300+</span></div>
+</div>
+<p class="city-footnote">Illustrative skyline, not a geographic rendering. Weather and US AQI from <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a>; AQI is modelled, not a local sensor reading. Data updates on refresh.</p>
     </div>
   </div>
 </section>
@@ -85,4 +92,4 @@ title: Fred Egbuedike | Data Science and Technology Lecturer
   <div><span class="section-kicker">LET'S TALK</span><h2>Teaching with practical evidence.</h2><p>Explore the syllabus, teaching experience and source code, or get in touch about the 2027 course programme.</p></div>
   <div class="portfolio-actions"><a class="cta-button" href="{{ '/cv' | relative_url }}">View academic CV</a><a class="cta-button outline" href="mailto:fredilly@gmail.com">Email me ↗</a></div>
 </section>
-<script src="{{ '/assets/js/chengdu-data.js' | relative_url }}?v=20261019-breathing3" defer></script>
+<script src="{{ '/assets/js/chengdu-data.js' | relative_url }}?v=20261019-signals4" defer></script>
