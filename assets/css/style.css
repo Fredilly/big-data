@@ -781,3 +781,21 @@ p:last-child { margin-bottom: 0; }
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Academic portfolio pages: restore hierarchy after global reset */
+.academic-page { max-width: 920px; margin: 0 auto; padding-bottom: 2rem; line-height: 1.65; }
+.academic-page > h1 { font-size: clamp(2.1rem, 4vw, 3.15rem); line-height: 1.16; font-weight: 800; margin: 0 0 14px; color: #14243a; letter-spacing: -0.035em; }
+.academic-page > h2 { font-size: 1.45rem; margin: 42px 0 16px; padding-top: 26px; border-top: 1px solid #dfe6ef; line-height: 1.3; }
+.academic-page > h3 { font-size: 1.12rem; margin: 18px 0 12px; line-height: 1.4; color: #32465e; }
+.academic-page > p { margin: 0 0 19px; max-width: 80ch; }
+.academic-page > ul, .academic-page > ol { margin: 10px 0 25px; padding-left: 26px; }
+.academic-page li { margin: 0 0 10px; padding-left: 3px; }
+.academic-page a { color: #1769c2; text-underline-offset: 3px; }
+.academic-page > table { width: 100%; border-collapse: collapse; margin: 18px 0 30px; background: white; border: 1px solid #dfe6ef; font-size: .94rem; }
+.academic-page th, .academic-page td { text-align: left; vertical-align: top; padding: 13px 15px; border-bottom: 1px solid #e5ebf2; }
+.academic-page th { background: #eaf1fa; font-weight: 700; }
+.academic-page tr:nth-child(even) td { background: #f8fbfe; }
+.academic-page .academic-subtitle { font-size: 1.2rem; font-weight: 650; color: #285b8e; margin-bottom: 16px; }
+.academic-page > h1 + p { margin-bottom: 20px; }
+@media (max-width: 650px) { .academic-page > h2 { margin-top: 30px; } .academic-page > table { display: block; overflow-x: auto; } .academic-page th, .academic-page td { padding: 10px; } .site-nav .wrapper { height: auto; min-height: 64px; flex-wrap: wrap; padding-block: 12px; gap: 10px; } .nav-links { display: flex; gap: 12px; overflow-x: auto; max-width: 100%; } .nav-links a { white-space: nowrap; margin-left: 0; } }

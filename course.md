@@ -3,6 +3,8 @@ layout: default
 title: Teaching Portfolio | 2027
 ---
 
+<div class="academic-page" markdown="1">
+
 # Proposed Teaching Portfolio | March–July 2027
 
 **Data Science and Big Data Technology · Chengdu · English-medium instruction**
@@ -140,3 +142,5 @@ These are **proposed** syllabi for discussion with the university, not previousl
 - Slides, instructor notes, starter code, graded lab exercises, rubrics and reproducible examples will be prepared before assigned teaching begins.
 - Teaching will explicitly distinguish demonstrated professional experience from areas under active instructional preparation. **Java OOP is a preparation priority**, with a tested sample project and lesson demonstration to be completed before accepting its assignment.
 - Materials can be adapted to the university's required Java version, database platform, curriculum outcomes, and assessment policy.
+
+</div>

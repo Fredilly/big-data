@@ -3,6 +3,8 @@ layout: default
 title: Fred Egbuedike | Data Science Lecturer Candidate
 ---
 
+<div class="academic-page" markdown="1">
+
 # Fred Egbuedike
 
 ### Data Science & Big Data Technology · Lecturer Candidate
@@ -45,3 +47,5 @@ These are **proposed course plans** tailored to the advertised vacancy, not a cl
 ## Contact
 
 [fredilly@gmail.com](mailto:fredilly@gmail.com) · [GitHub](https://github.com/Fredilly) · [Curriculum vitae]({{ '/cv' | relative_url }})
+
+</div>
