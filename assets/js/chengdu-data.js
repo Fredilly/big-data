@@ -62,6 +62,38 @@
     put('air-pm25',finite(current.pm2_5)?current.pm2_5.toFixed(1)+' µg/m³':'Unavailable');
     put('air-pm10',finite(current.pm10)?current.pm10.toFixed(1)+' µg/m³':'Unavailable');
   }
+
+  async function history() {
+    const today=new Date();
+    const isoDaysAgo=d=>{const x=new Date(today.getTime()-d*86400000);return x.toISOString().slice(0,10);};
+    const endpoint='https://archive-api.open-meteo.com/v1/archive?latitude=30.5728&longitude=104.0668&start_date='+isoDaysAgo(34)+'&end_date='+isoDaysAgo(5)+'&daily=temperature_2m_mean&timezone=Asia%2FShanghai';
+    const data=await request(endpoint);
+    const values=data?.daily?.temperature_2m_mean;
+    const dates=data?.daily?.time;
+    if(!Array.isArray(values)||!Array.isArray(dates))throw Error('Archive returned no daily values');
+    const valid=values.map((v,i)=>({v,date:dates[i]})).filter(x=>finite(x.v));
+    if(valid.length<20)throw Error('Not enough historical observations');
+    const baseline=valid.reduce((sum,p)=>sum+p.v,0)/valid.length;
+    const currentText=$('wx-temp').textContent;
+    const current=parseFloat(currentText);
+    if(finite(current)){
+      const delta=current-baseline;
+      put('urban-difference',(delta>=0?'+':'')+delta.toFixed(1)+'°C');
+      put('urban-explain','Current: '+current.toFixed(1)+'°C · Historical mean: '+baseline.toFixed(1)+'°C · '+valid.length+' valid days');
+    } else {
+      put('urban-difference',baseline.toFixed(1)+'°C');
+      put('urban-explain','30-day historical baseline. Current weather data unavailable for comparison.');
+    }
+    const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
+    svg.setAttribute('viewBox','0 0 780 155');svg.setAttribute('role','presentation');
+    const low=Math.min(...valid.map(x=>x.v),baseline)-1,high=Math.max(...valid.map(x=>x.v),baseline)+1;
+    const y=v=>140-(v-low)/(high-low)*120;
+    const barWidth=740/valid.length;
+    valid.forEach((p,i)=>{const bar=document.createElementNS(ns,'rect');bar.setAttribute('x',20+i*barWidth);bar.setAttribute('y',y(p.v));bar.setAttribute('width',Math.max(2,barWidth-5));bar.setAttribute('height',140-y(p.v));bar.setAttribute('rx',3);bar.setAttribute('fill','#2276d8');bar.setAttribute('opacity','.75');svg.appendChild(bar)});
+    const mean=document.createElementNS(ns,'line');mean.setAttribute('x1',12);mean.setAttribute('x2',770);mean.setAttribute('y1',y(baseline));mean.setAttribute('y2',y(baseline));mean.setAttribute('stroke','#ef8d46');mean.setAttribute('stroke-width','2');mean.setAttribute('stroke-dasharray','5 6');svg.appendChild(mean);
+    $('urban-history-chart').replaceChildren(svg);
+    $('urban-history-chart').setAttribute('aria-label','Historical daily mean temperatures from '+valid[0].date+' to '+valid[valid.length-1].date+' with baseline '+baseline.toFixed(1)+' degrees Celsius');
+  }
   Promise.allSettled([weather(),air()]).then(results=>{
     const successes=results.filter(r=>r.status==='fulfilled').length;
     if(successes===2)setStatus('● Live data loaded','live');
@@ -69,5 +101,5 @@
     else setStatus('Live feeds unavailable · refresh to retry','error');
     if(results[0].status==='rejected'){$('trend-chart').textContent='Weather feed unavailable. Please refresh to retry.';put('wx-description','Weather feed unavailable');}
     if(results[1].status==='rejected')put('air-rating','Air quality feed unavailable');
-  });
+  }).finally(()=>{history().catch(()=>{put('urban-difference','Unavailable');put('urban-explain','Historical data unavailable. Refresh to retry.');put('urban-history-chart','Archive feed could not be loaded.');});});
 })();
