@@ -869,3 +869,35 @@ p:last-child { margin-bottom: 0; }
 .urban-explain{margin:12px 0;font-size:.92rem;font-weight:600;color:#285675}
 .urban-method{color:#778497;font-size:.73rem;line-height:1.65;margin:8px 0 0}
 @media(max-width:740px){.urban-history{padding:18px}.urban-head{display:block}.urban-delta{text-align:left;margin-top:12px}}
+
+/* Chengdu breathing city: self-contained and responsive */
+.breathing-city{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.25fr);gap:18px;align-items:stretch}
+.breathing-copy,.breathing-visual-wrap{min-width:0;border-radius:18px;padding:clamp(20px,3vw,30px);border:1px solid #dce6f2}
+.breathing-copy{background:linear-gradient(150deg,#fff,#f1f7ff)}
+.breathing-copy h3{font-size:clamp(1.35rem,2.7vw,1.9rem);color:#14243a;letter-spacing:-.04em;line-height:1.22;margin:14px 0}
+.breathing-copy p{font-size:.93rem;line-height:1.7;color:#52647a}
+.city-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:24px 0 18px}
+.city-metric{min-width:0;border:1px solid #d7e7fb;background:#eaf3ff;border-radius:11px;padding:12px 10px}
+.metric-label{display:block;font-size:.61rem;letter-spacing:.06em;font-weight:800;color:#607990;min-height:2.3em;line-height:1.2}
+.city-metric strong{display:block;color:#1769e8;letter-spacing:-.05em;font-size:clamp(1rem,2.2vw,1.45rem);overflow-wrap:anywhere;margin-top:4px}
+.city-supporting{font-weight:600;color:#255679!important}
+.city-method{font-size:.76rem!important;color:#74869a!important}
+.city-link{color:#1769e8;text-decoration:none;font-size:.89rem;font-weight:700}
+.city-link:hover{text-decoration:underline}
+.breathing-visual-wrap{background:linear-gradient(160deg,#0b172e,#112b53);border-color:#203e6d;color:#dbeeff}
+.visual-topline{display:flex;justify-content:space-between;gap:16px;color:#a4c9f5;font-size:.66rem;font-weight:700;letter-spacing:.1em;margin-bottom:13px;flex-wrap:wrap}
+.breathing-visual{overflow:hidden;border-radius:13px;--city-glow:#1769ff}
+.breathing-city-svg{width:100%;height:auto;display:block}
+#city-buildings{transform-origin:50% 100%;animation:city-breathe 7s ease-in-out infinite}
+#city-particles circle{animation:city-drift 6s ease-in-out infinite}
+#city-particles circle:nth-child(3n){animation-duration:9s}
+.breathing-visual[data-temp-band="cool"]{--city-glow:#64b5ff}
+.breathing-visual[data-temp-band="warm"]{--city-glow:#5d8dff}
+.breathing-visual[data-temp-band="hot"]{--city-glow:#a77cff}
+.city-footnote{font-size:.75rem;color:#a1bddb;line-height:1.6;margin-top:13px}
+.city-footnote a{color:#c8e4ff}
+@keyframes city-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.014)}}
+@keyframes city-drift{0%,100%{transform:translate(0,0)}50%{transform:translate(5px,-12px)}}
+@media(max-width:960px){.breathing-city{grid-template-columns:1fr}}
+@media(max-width:480px){.breathing-copy,.breathing-visual-wrap{padding:17px}.city-metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.city-metric{padding:10px 6px}.metric-label{font-size:.55rem}.city-metric strong{font-size:1rem}}
+@media(prefers-reduced-motion:reduce){#city-buildings,#city-particles circle{animation:none}}
