@@ -6,7 +6,7 @@
   const finite=n=>typeof n==='number'&&Number.isFinite(n);
   const lat=30.5728, lon=104.0668, tz='Asia/Shanghai';
   const base='latitude='+lat+'&longitude='+lon+'&timezone='+encodeURIComponent(tz);
-  const weather='https://api.open-meteo.com/v1/forecast?'+base+'&current=temperature_2m,relative_humidity_2m,weather_code';
+  const weather='https://api.open-meteo.com/v1/forecast?'+base+'&current=temperature_2m,relative_humidity_2m,weather_code&hourly=temperature_2m&forecast_days=2';
   const air='https://air-quality-api.open-meteo.com/v1/air-quality?'+base+'&current=us_aqi,pm2_5';
   const codes={0:'Clear skies',1:'Mainly clear',2:'Partly cloudy',3:'Cloudy',45:'Fog',48:'Fog',51:'Drizzle',53:'Drizzle',55:'Drizzle',61:'Rain',63:'Rain',65:'Heavy rain',71:'Snow',73:'Snow',75:'Heavy snow',80:'Showers',81:'Showers',82:'Heavy showers',95:'Thunderstorm',96:'Thunderstorm',99:'Thunderstorm'};
   const ns='http://www.w3.org/2000/svg';
@@ -42,6 +42,38 @@
   }
   function status(message,kind){const el=$('data-status');if(el){el.textContent=message;el.className='data-state'+(kind?' is-'+kind:'')}}
   function airLabel(n){return n<=50?'Good':n<=100?'Moderate':n<=150?'Unhealthy for sensitive groups':n<=200?'Unhealthy':n<=300?'Very unhealthy':'Hazardous'}
+
+  function drawForecast(payload){
+    const times=payload?.hourly?.time,values=payload?.hourly?.temperature_2m;
+    const host=$('city-forecast');if(!host)return;
+    if(!Array.isArray(times)||!Array.isArray(values)){host.textContent='Hourly forecast unavailable';return}
+    const now=String(payload?.current?.time||'').slice(0,13);
+    const start=Math.max(0,times.findIndex(t=>t.slice(0,13)>=now));
+    const points=times.slice(start,start+24).map((time,i)=>({time,temp:values[start+i]})).filter(p=>finite(p.temp));
+    if(points.length<8){host.textContent='Hourly forecast unavailable';return}
+    const min=Math.min(...points.map(p=>p.temp)),max=Math.max(...points.map(p=>p.temp));
+    const low=Math.floor(min-1),high=Math.ceil(max+1),W=610,H=190,L=45,R=16,T=15,B=32;
+    const X=i=>L+i*(W-L-R)/(points.length-1);
+    const Y=v=>T+(high-v)/(high-low)*(H-T-B);
+    const root=svgEl('svg',{viewBox:'0 0 '+W+' '+H,'aria-hidden':'true'});
+    for(let i=0;i<=3;i++){
+      const val=low+(high-low)*i/3,y=Y(val);
+      root.appendChild(svgEl('line',{x1:L,y1:y,x2:W-R,y2:y,stroke:'#375575','stroke-dasharray':'3 6'}));
+      const label=svgEl('text',{x:L-8,y:y+4,'text-anchor':'end',fill:'#9cbbdf','font-size':12});label.textContent=val.toFixed(0)+'°';root.appendChild(label);
+    }
+    const path=points.map((p,i)=>(i?'L':'M')+X(i).toFixed(1)+' '+Y(p.temp).toFixed(1)).join(' ');
+    const area=path+' L '+X(points.length-1).toFixed(1)+' '+(H-B)+' L '+X(0)+' '+(H-B)+' Z';
+    root.appendChild(svgEl('path',{d:area,fill:'#3389fa',opacity:.14}));
+    root.appendChild(svgEl('path',{d:path,fill:'none',stroke:'#6dcaff','stroke-width':3.5,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    points.forEach((p,i)=>{if(i!==0&&i!==points.length-1&&i%6!==0)return;
+      root.appendChild(svgEl('circle',{cx:X(i),cy:Y(p.temp),r:4,fill:'#d1f4ff',stroke:'#287fd4','stroke-width':2}));
+      const t=svgEl('text',{x:X(i),y:H-7,'text-anchor':'middle',fill:'#a6c6eb','font-size':12});
+      t.textContent=p.time.slice(11,16);root.appendChild(t);
+    });
+    host.replaceChildren(root);
+    host.setAttribute('aria-label','24-hour temperature forecast; minimum '+min.toFixed(1)+' and maximum '+max.toFixed(1)+' degrees Celsius');
+  }
+
   skyline();
   async function main(){
     const [start,end]=archiveDates();
@@ -49,12 +81,14 @@
     const results=await Promise.allSettled([get(weather),get(air),get(historical)]);
     const [w,a,h]=results.map(r=>r.status==='fulfilled'?r.value:null);
     const temp=w?.current?.temperature_2m,aqi=a?.current?.us_aqi;
+    drawForecast(w);
     const temps=h?.daily?.temperature_2m_mean;
     const valid=Array.isArray(temps)?temps.filter(finite):[];
     const baseline=valid.length>=20?valid.reduce((sum,v)=>sum+v,0)/valid.length:null;
     const delta=finite(temp)&&finite(baseline)?temp-baseline:null;
     set('city-temp',finite(temp)?Math.round(temp)+'°C':'Unavailable');
     set('city-aqi',finite(aqi)?Math.round(aqi):'Unavailable');
+    if(finite(aqi)){$('aqi-marker').style.left=(Math.min(100,Math.max(0,aqi/350*100)))+'%';set('city-aqi-detail',Math.round(aqi)+' · '+airLabel(aqi)+' · PM2.5 '+(finite(a?.current?.pm2_5)?a.current.pm2_5.toFixed(1)+' µg/m³':'unavailable'))}
     set('city-delta',finite(delta)?(delta>=0?'+':'')+delta.toFixed(1)+'°C':'Unavailable');
     const condition=codes[w?.current?.weather_code]||'Current conditions';
     const summary=[];
