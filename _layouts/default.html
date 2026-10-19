@@ -15,11 +15,11 @@
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <div class="nav-links">
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/course' | relative_url }}">Course</a>
+        <a href="{{ '/course' | relative_url }}">Five Syllabi</a>
         <a href="{{ '/cv' | relative_url }}">CV</a>
         <a href="{{ '/experience' | relative_url }}">Experience</a>
         <a href="{{ '/education' | relative_url }}">Education</a>
-        <a href="{{ '/meetup' | relative_url }}">2018 Meetup</a>
+        <a href="{{ '/meetup' | relative_url }}">AI Meetup</a>
       </div>
     </div>
   </nav>
@@ -39,76 +39,6 @@
     </div>
   </footer>
 
-<script>
-// Weather code to emoji/description map
-const WMO = {
-  0:['☀️','Clear'],
-  1:['🌤️','Mainly clear'],
-  2:['⛅','Partly cloudy'],
-  3:['☁️','Overcast'],
-  45:['🌫️','Foggy'],
-  48:['🌫️','Depositing rime fog'],
-  51:['🌦️','Light drizzle'],
-  53:['🌦️','Moderate drizzle'],
-  55:['🌧️','Dense drizzle'],
-  61:['🌧️','Slight rain'],
-  63:['🌧️','Moderate rain'],
-  65:['🌧️','Heavy rain'],
-  71:['🌨️','Slight snow'],
-  73:['🌨️','Moderate snow'],
-  75:['❄️','Heavy snow'],
-  80:['🌦️','Slight rain showers'],
-  81:['🌧️','Moderate rain showers'],
-  82:['🌧️','Violent rain showers'],
-  95:['⛈️','Thunderstorm'],
-  96:['⛈️','Thunderstorm with slight hail'],
-  99:['⛈️','Thunderstorm with heavy hail']
-};
 
-function aqiCategory(val) {
-  if (val <= 50) return ['good','Good'];
-  if (val <= 100) return ['moderate','Moderate'];
-  if (val <= 150) return ['unhealthy','Unhealthy (Sensitive)'];
-  if (val <= 200) return ['unhealthy','Unhealthy'];
-  return ['unhealthy','Very Unhealthy'];
-}
-
-async function loadDashboard() {
-  try {
-    // Fetch weather
-    const wRes = await fetch('https://api.open-meteo.com/v1/forecast?latitude=30.5728&longitude=104.0668&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code&timezone=Asia/Shanghai');
-    const wData = await wRes.json();
-    const temp = Math.round(wData.current.temperature_2m);
-    const feels = Math.round(wData.current.apparent_temperature);
-    const hum = wData.current.relative_humidity_2m;
-    const code = wData.current.weather_code;
-    const [emoji, desc] = WMO[code] || ['🌤️','Unknown'];
-
-    document.getElementById('dash-temp').textContent = temp + '°C';
-    document.getElementById('dash-conditions').innerHTML = `${emoji} ${desc} (feels ${feels}°C)`;
-    document.getElementById('dash-humidity').textContent = hum + '%';
-
-    // Fetch air quality
-    const aRes = await fetch('https://air-quality-api.open-meteo.com/v1/air-quality?latitude=30.5728&longitude=104.0668&current=us_aqi,pm2_5,pm10&timezone=Asia/Shanghai');
-    const aData = await aRes.json();
-    const aqi = aData.current.us_aqi;
-    const pm25 = aData.current.pm2_5;
-    const [catClass, catLabel] = aqiCategory(aqi);
-
-    document.getElementById('dash-aqi').innerHTML = `${aqi} <span class="small">${catLabel}</span>`;
-    const tag = document.getElementById('dash-aqi-tag');
-    tag.textContent = `AQI ${aqi} · PM2.5 ${pm25} μg/m³`;
-    tag.className = 'dash-tag aqi-badge ' + catClass;
-    tag.style.display = 'inline-block';
-
-    document.getElementById('dash-updated').textContent = '● LIVE';
-    document.getElementById('dash-updated').style.color = '#3fb950';
-  } catch {
-    document.getElementById('dash-updated').textContent = '● STALE';
-    document.getElementById('dash-updated').style.color = '#f85149';
-  }
-}
-loadDashboard();
-</script>
 </body>
 </html>

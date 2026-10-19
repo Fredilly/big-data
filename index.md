@@ -1,200 +1,47 @@
 ---
 layout: default
-title: Home
+title: Fred Egbuedike | Data Science Lecturer Candidate
 ---
 
-<div class="hero">
-  <div class="hero-badge">🎯 Available Sept–Dec 2026 · Chengdu</div>
-  <h1>
-    <span class="highlight">Fred Egbuedike</span>
-  </h1>
-  <p class="subtitle">Advanced Programming for Data Science Lecturer</p>
-  <p class="hero-tagline">Python Practitioner · Technical Educator · Chengdu-Based</p>
-  <p class="hero-experience">🎓 M.Sc. Information Security · Southwest Jiaotong University</p>
+# Fred Egbuedike
 
-  <div class="data-dashboard" id="data-dashboard">
-    <!-- Panel 1: Teaching Data -->
-    <div class="dash-panel">
-      <div class="dash-panel-header">
-        <span class="dot green"></span>
-        TEACHING DATA
-        <span style="flex:1;"></span>
-        <span style="font-size:0.6rem;color:#3fb950;">● LIVE</span>
-      </div>
+### Data Science & Big Data Technology · Lecturer Candidate
 
-      <div class="dash-metric">
-        <span class="value gold">10+</span>
-        <span class="label">Years Teaching &amp; Training</span>
-      </div>
-      <div class="dash-metric">
-        <span class="value gold">60+</span>
-        <span class="label">PhD Researchers Trained</span>
-      </div>
-      <div class="dash-metric">
-        <span class="value gold">3</span>
-        <span class="label">
-          Multinational Companies
-          <div style="margin-top:3px;">
-            <span class="dash-tag">Midea Group</span>
-            <span class="dash-tag">Hisense Group</span>
-            <span class="dash-tag">NetEase</span>
-          </div>
-        </span>
-      </div>
-      <div class="dash-metric">
-        <span class="value gold">1</span>
-        <span class="label">
-          AI Meetup Founded
-          <div style="margin-top:3px;">
-            <span class="dash-tag">Chengdu AI &amp; ML Meetup</span>
-          </div>
-        </span>
-      </div>
+**M.Sc. Information Security, Southwest Jiaotong University · English-medium educator · Applied software and data systems**
 
-      <div style="margin-top:14px;padding-top:10px;border-top:1px solid #1f2937;font-size:0.68rem;color:#8b949e;line-height:1.6;">
-        <span>🔬</span> Chinese Academy of Sciences (中国科学院)
-      </div>
-    </div>
+**Target engagement:** March–July 2027, on-site in Chengdu (availability to confirm).
 
-    <!-- Panel 2: Chengdu Live Data -->
-    <div class="dash-panel">
-      <div class="dash-panel-header">
-        <span class="dot blue"></span>
-        CHENGDU DATA LIVE
-        <span style="flex:1;"></span>
-        <span style="font-size:0.6rem;color:#58a6ff;" id="dash-updated">● UPDATING</span>
-      </div>
+[View five proposed course syllabi]({{ '/course' | relative_url }}) · [View CV]({{ '/cv' | relative_url }}) · [Teaching experience]({{ '/experience' | relative_url }})
 
-      <div class="dash-live-row">
-        <span class="lbl">🌡 Temperature</span>
-        <span class="val" id="dash-temp">-- °C</span>
-      </div>
-      <div class="dash-live-row">
-        <span class="lbl">☀️ Conditions</span>
-        <span class="val" id="dash-conditions">--</span>
-      </div>
-      <div class="dash-live-row">
-        <span class="lbl">💧 Humidity</span>
-        <span class="val" id="dash-humidity">--</span>
-      </div>
-      <div class="dash-live-row">
-        <span class="lbl">🌫 Air Quality (AQI)</span>
-        <span class="val" id="dash-aqi">-- <span class="small" id="dash-aqi-label">loading</span></span>
-      </div>
-      <div class="dash-live-row">
-        <span class="lbl">🚇 Metro</span>
-        <span class="val">721 km <span class="small">4th longest globally</span></span>
-      </div>
-      <div class="dash-live-row">
-        <span class="lbl">👥 Population</span>
-        <span class="val">20.9M <span class="small">metro area</span></span>
-      </div>
+## Teaching approach
 
-      <div style="margin-top:10px;padding-top:8px;border-top:1px solid #1f2937;display:flex;gap:4px;flex-wrap:wrap;">
-        <span class="dash-tag">30.57°N 104.07°E</span>
-        <span class="dash-tag" id="dash-aqi-tag">AQI loading...</span>
-        <span class="dash-tag">Asia/Shanghai</span>
-      </div>
-    </div>
-  </div>
+I combine more than a decade of English-medium teaching and corporate training in China with hands-on software and data work. My approach emphasizes clear conceptual explanations, live demonstrations, structured labs, reproducible assignments and specific feedback. My academic communication instruction at the Chinese Academy of Sciences reached over 60 postgraduate researchers, while corporate training included Midea, Hisense and NetEase.
 
-  <div>
-    <a href="{{ '/course' | relative_url }}" class="cta-button">📖 View 64-Hour Syllabus</a>
-    <a href="{{ '/cv' | relative_url }}" class="cta-button" style="background: #2e7d32;">📄 Download CV</a>
-    <a href="{{ '/experience' | relative_url }}" class="cta-button outline">💼 Teaching Experience</a>
-  </div>
-</div>
+## Academic and professional foundation
 
-<div class="card">
-  <h2>🎯 Candidate Profile</h2>
-  <p>Technical educator and Python practitioner with experience teaching advanced learners in research institutions, universities, and multinational companies. Delivered academic communication training to 60+ PhD students and researchers at the <strong>Chinese Academy of Sciences</strong> (中国科学院), and developed practical training programs for professionals at Midea Group and Hisense Group.</p>
+- **Computing qualification:** M.Sc. Information Security, Southwest Jiaotong University (西南交通大学).
+- **Teaching:** Academic English and research presentations at the Chinese Academy of Sciences; professional English communication and training for engineers and corporate teams.
+- **Applied computing:** Article6 data validation and document-processing workflows; web applications, database-backed inventory systems and information retrieval projects.
+- **Local community:** Founded the Chengdu AI, Machine Learning & Data Science Meetup; [community evidence]({{ '/meetup' | relative_url }}).
 
-  <div class="exp-blocks">
-    <div class="exp-block exp-block-highlight">
-      <div class="exp-block-icon">🔬</div>
-      <div class="exp-block-body">
-        <h3>Research Institution Experience</h3>
-        <p class="exp-block-org"><strong>Chinese Academy of Sciences</strong> (中国科学院)</p>
-        <p class="exp-block-role">English Instructor · Academic Presentation &amp; Professional Communication Training</p>
-        <p class="exp-block-desc">Delivered communication and presentation training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences.</p>
-      </div>
-    </div>
+## Proposed 2027 courses
 
-    <div class="exp-block">
-      <div class="exp-block-icon">🏢</div>
-      <div class="exp-block-body">
-        <h3>Corporate Training Experience</h3>
-        <p class="exp-block-org"><strong>Midea Group · Hisense Group</strong></p>
-        <p class="exp-block-desc">Delivered English and professional skills training for engineers and business professionals in multinational companies.</p>
-      </div>
-    </div>
+| University course | Hours | Instructional focus |
+|---|---:|---|
+| Exploration in Data Science | 64 | Python, Pandas, visualization, introductory ML |
+| Database and Information Management | 64 | SQL, modelling, transactions, security |
+| Object-oriented Programming (Java) | 64 | Java fundamentals, object design, collections and testing |
+| Organizational Website and Database Management | 64 | Accessible web apps, database integration, CRUD and security |
+| Introduction to Programming and Machine Intelligence | 4 | Programming and introductory AI demonstration |
 
-    <div class="exp-block">
-      <div class="exp-block-icon">💻</div>
-      <div class="exp-block-body">
-        <h3>Technical Education Experience</h3>
-        <p class="exp-block-org"><strong>Python · Data Processing · AI Applications</strong></p>
-        <p class="exp-block-desc">Developed practical learning materials and explained complex technical concepts to students, researchers, and professionals.</p>
-      </div>
-    </div>
-  </div>
-</div>
+These are **proposed course plans** tailored to the advertised vacancy, not a claim that I have previously taught all five courses. Java instruction is an area of focused preparation; demonstrable teaching materials and code examples will be completed prior to delivery.
 
-<div class="card">
-  <h2>🏆 Why I Am a Strong Fit</h2>
+## Selected practice-based examples
 
-  <h3>Computing &amp; Data Science Background</h3>
-  <p>I hold an M.Sc. in Information Security from Southwest Jiaotong University (西南交通大学), Chengdu, providing a strong foundation in computing, secure systems, data integrity, and technical problem-solving.</p>
-  <p>I combine academic computing knowledge with practical experience in Python, data processing, AI applications, and software development.</p>
+- **Data integrity:** Parsing, schema validation, provenance and repeatable checks in Article6 workflows.
+- **Database-backed applications:** Inventory, sales and access control as teachable examples of data modelling and CRUD.
+- **Retrieval and evaluation:** Video-product identification pipelines, benchmark design and practical model limitations.
 
-  <h3>Technical Teaching Experience</h3>
-  <p>I bring extensive teaching and professional training experience in China, working with students, researchers, and industry professionals.</p>
-  <p>Highlights include:</p>
-  <ul>
-    <li>Delivered English communication and academic presentation training to <strong>60+ PhD students and researchers</strong> at the Chinese Academy of Sciences (中国科学院, CAS).</li>
-    <li>Provided professional training for multinational companies including <strong>Midea Group</strong> and <strong>Hisense Group</strong>.</li>
-    <li>Developed structured lessons, presentations, exercises, and practical learning materials.</li>
-  </ul>
+## Contact
 
-  <h3>English-Medium Technical Instruction</h3>
-  <p>As a native English speaker, I have extensive experience explaining complex concepts to Chinese learners and professionals.</p>
-  <p>My teaching approach focuses on making technical subjects clear, practical, and accessible through structured explanations, examples, and hands-on activities.</p>
-
-  <h3>Course Development</h3>
-  <p>I independently designed a 64-hour Advanced Programming for Data Science syllabus covering:</p>
-  <ul>
-    <li>Python programming</li>
-    <li>Data structures and algorithms</li>
-    <li>Data processing workflows</li>
-    <li>Data analysis with Python</li>
-    <li>Applied projects and practical exercises</li>
-  </ul>
-  <p>The course is designed to bridge programming fundamentals with real-world data science applications.</p>
-
-  <h3>Chengdu Connection</h3>
-  <p>I am based in Chengdu and have studied, taught, and worked in the city for many years.</p>
-  <p>My local experience includes Southwest Jiaotong University, Chinese Academy of Sciences (中国科学院), and building the Chengdu AI &amp; Machine Learning Meetup community.</p>
-</div>
-
-<div class="card">
-  <h2>🔗 Contact</h2>
-  <div style="display: flex; gap: 24px; flex-wrap: wrap; margin-top: 12px;">
-    <a href="mailto:fredilly@gmail.com" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
-      📧 fredilly@gmail.com
-    </a>
-    <span style="display: flex; align-items: center; gap: 8px; color: var(--text-light);">
-      💬 WeChat: fredilly
-    </span>
-    <span style="display: flex; align-items: center; gap: 8px; color: var(--text-light);">
-      📞 18030828814
-    </span>
-    <a href="https://github.com/Fredilly" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
-      <img src="https://github.githubassets.com/favicons/favicon.svg" width="20" height="20" alt="GitHub">
-      GitHub
-    </a>
-    <a href="https://kaggle.com/fredilly" target="_blank" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);">
-      <img src="https://www.kaggle.com/static/images/favicon.ico" width="20" height="20" alt="Kaggle">
-      Kaggle
-    </a>
-  </div>
-</div>
+[fredilly@gmail.com](mailto:fredilly@gmail.com) · [GitHub](https://github.com/Fredilly) · [Curriculum vitae]({{ '/cv' | relative_url }})

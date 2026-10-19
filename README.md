@@ -1,14 +1,9 @@
-# Big Data — Portfolio
+# Fred Egbuedike | Data Science & Big Data Teaching Portfolio
 
-Personal portfolio site for **Fred Egbuedike**, targeting the **Big Data Lecturer** position at Chengdu university (Sept–Dec 2026).
+GitHub Pages: https://fredilly.github.io/big-data/
 
-Hosted via GitHub Pages at `fredilly.github.io/big-data`
+Updated for a **March–July 2027 part-time university lecturer application in Chengdu**, Data Science and Big Data Technology. The site features five proposed teaching syllabi, an updated CV, teaching experience and project examples.
 
-## Pages
+The course outlines are proposals, **not** claims of past delivery. Java OOP is a focused preparation area. Teaching assignments, availability and university-specific requirements must be confirmed before accepting a course.
 
-- **Home** — Hero, key stats, call to action
-- **Chengdu AI Meetup (2018)** — First AI meetup in Chengdu, organizer story
-- **Big Data Course (7 Weeks)** — Full curriculum from foundations to AI agents
-- **Experience** — Big Data / AI–relevant work history
-- **Kaggle & Projects** — Data science competitions and open-source work
-- **Education** — M.Sc. Information Security, Southwest Jiaotong University
+Course hours: four courses × 64 teaching hours plus one × 4 teaching hours = 260 hours, not deliverable in a single four/five-week placement at a maximum of 20 hours/week.
