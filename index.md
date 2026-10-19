@@ -48,7 +48,7 @@ title: Fred Egbuedike | Data Science and Technology Lecturer
           <rect width="860" height="520" fill="url(#city-sky)"/>
           <circle id="ambient-orb" cx="615" cy="160" r="115" fill="#1769ff" opacity=".35" filter="url(#city-blur)"/>
           <g class="city-contours" fill="none" stroke="#4aa2fb"><path d="M0 380 Q130 295 260 360 T560 350 T860 355" stroke-width="3"/><path d="M0 414 Q155 344 310 415 T630 408 T860 390" stroke-width="2" opacity=".45"/><path d="M0 448 Q140 412 290 455 T590 451 T860 439" stroke-width="2" opacity=".25"/></g>
-          <g id="city-buildings" fill="url(#city-towers)"></g>
+          <g id="city-buildings" fill="url(#city-towers)"><rect x="80" y="305" width="26" height="105" rx="5"/><rect x="115" y="270" width="30" height="140" rx="5"/><rect x="155" y="320" width="24" height="90" rx="5"/><rect x="189" y="240" width="34" height="170" rx="5"/><rect x="233" y="290" width="26" height="120" rx="5"/><rect x="277" y="213" width="40" height="197" rx="5"/><rect x="329" y="254" width="26" height="156" rx="5"/><rect x="369" y="290" width="28" height="120" rx="5"/><rect x="409" y="180" width="45" height="230" rx="5"/><rect x="466" y="260" width="29" height="150" rx="5"/><rect x="510" y="220" width="35" height="190" rx="5"/><rect x="554" y="295" width="22" height="115" rx="5"/><rect x="589" y="245" width="30" height="165" rx="5"/><rect x="629" y="195" width="40" height="215" rx="5"/><rect x="681" y="275" width="25" height="135" rx="5"/><rect x="722" y="231" width="35" height="179" rx="5"/><rect x="771" y="298" width="22" height="112" rx="5"/></g>
           <g id="city-windows"></g>
           <g id="city-particles"></g>
           <path d="M10 446 Q180 413 360 453 T700 440 T850 444" fill="none" stroke="#8cd5ff" stroke-width="2" opacity=".32"/>
@@ -85,4 +85,4 @@ title: Fred Egbuedike | Data Science and Technology Lecturer
   <div><span class="section-kicker">LET'S TALK</span><h2>Teaching with practical evidence.</h2><p>Explore the syllabus, teaching experience and source code, or get in touch about the 2027 course programme.</p></div>
   <div class="portfolio-actions"><a class="cta-button" href="{{ '/cv' | relative_url }}">View academic CV</a><a class="cta-button outline" href="mailto:fredilly@gmail.com">Email me ↗</a></div>
 </section>
-<script src="{{ '/assets/js/chengdu-data.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/chengdu-data.js' | relative_url }}?v=20261019-breathing3" defer></script>
