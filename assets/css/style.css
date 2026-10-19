@@ -858,3 +858,14 @@ p:last-child { margin-bottom: 0; }
 .portfolio-contact {background:#e9f1fc;border-radius:16px;padding:32px;display:flex;justify-content:space-between;gap:20px;align-items:center;}
 .portfolio-contact p{color:#586e82;max-width:560px;}.portfolio-contact .portfolio-actions {flex-shrink:0;}
 @media(max-width:740px){.portfolio-hero{padding:40px 0 55px}.showcase-heading,.portfolio-contact{display:block}.data-state{display:inline-block;margin-top:14px}.showcase-grid,.lab-bottom,.portfolio-three,.course-tiles{grid-template-columns:1fr}.modern-panel{padding:22px}.portfolio-contact .portfolio-actions{justify-content:flex-start}.portfolio-three{gap:12px}.trend-panel{padding:20px}.course-tiles a{min-height:76px}.portfolio-hero h1{font-size:clamp(2.5rem,10vw,3.7rem)}}
+
+/* Urban intelligence baseline chart */
+.urban-history{background:#fff;border:1px solid #dce5ef;padding:28px;border-radius:16px;margin:0 0 18px;box-shadow:0 12px 25px #112c490b}
+.urban-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin:12px 0 18px}
+.urban-head h3{font-size:1.35rem;margin:0 0 6px}.urban-head p{font-size:.89rem;color:#64758a;max-width:590px}
+.urban-delta{text-align:right;white-space:nowrap}.urban-delta span{font-size:.73rem;color:#60738b;display:block}.urban-delta strong{font-size:1.7rem;color:#146be0;line-height:1.35}
+.urban-history-chart{min-height:145px;color:#718096;font-size:.84rem}
+.urban-history-chart svg{display:block;width:100%;height:155px}
+.urban-explain{margin:12px 0;font-size:.92rem;font-weight:600;color:#285675}
+.urban-method{color:#778497;font-size:.73rem;line-height:1.65;margin:8px 0 0}
+@media(max-width:740px){.urban-history{padding:18px}.urban-head{display:block}.urban-delta{text-align:left;margin-top:12px}}

@@ -42,7 +42,14 @@ title: Fred Egbuedike | Data Science and Technology Lecturer
     <div id="trend-chart" class="trend-chart" role="img" aria-label="Hourly forecast temperature chart. Loading."><span class="chart-loading">Loading forecast…</span></div>
     <div class="trend-axis" id="trend-axis"></div>
   </div>
-  <div class="lab-bottom">
+  <section class="urban-history" aria-labelledby="urban-heading">
+  <div class="section-kicker">HISTORICAL CONTEXT / 30-DAY BASELINE</div>
+  <div class="urban-head"><div><h3 id="urban-heading">Is today warmer than usual?</h3><p>Compare today's temperature with the previous 30 available historical daily means. Historical data is not a prediction.</p></div><div class="urban-delta"><span>Compared with baseline</span><strong id="urban-difference">Loading…</strong></div></div>
+  <div id="urban-history-chart" class="urban-history-chart" role="img" aria-label="Daily mean temperatures for the historical comparison window">Loading historical data…</div>
+  <div class="urban-explain" id="urban-explain">Fetching archival series and computing the baseline.</div>
+  <p class="urban-method">Method: archive daily mean temperatures, ending five days before today to reduce recent-data gaps; compare today's current temperature to the 30-day historical mean. This is a current-versus-historical comparison, not a climate anomaly or a like-for-like daily mean comparison. Data: Open-Meteo Historical Weather API.</p>
+</section>
+<div class="lab-bottom">
     <div class="mini-lab">
       <span class="section-kicker">CITY SYSTEMS / METRO</span>
       <h3>Chengdu's subway is a data problem.</h3>
